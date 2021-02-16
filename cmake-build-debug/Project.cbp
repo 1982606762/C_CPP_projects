@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="二分查找">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/二分查找" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 二分查找"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="二分查找/fast">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/二分查找" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 二分查找/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="因式分解">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/因式分解" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 因式分解"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="因式分解/fast">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/因式分解" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 因式分解/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="因数和">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/因数和" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 因数和"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="因数和/fast">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/因数和" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 因数和/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="求素数">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/求素数" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 求素数"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="求素数/fast">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/求素数" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 求素数/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="递归">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/递归" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 递归"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="递归/fast">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/递归" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 递归/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="随机数">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/随机数" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 随机数"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="随机数/fast">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/随机数" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 随机数/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="去掉倍数">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/去掉倍数" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 去掉倍数"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="去掉倍数/fast">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/去掉倍数" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 去掉倍数/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="遍历字符数组">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/遍历字符数组" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 遍历字符数组"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="遍历字符数组/fast">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/遍历字符数组" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 遍历字符数组/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="宏定义">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/宏定义" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 宏定义"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="宏定义/fast">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/宏定义" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 宏定义/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="乘法表">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/乘法表" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 乘法表"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="乘法表/fast">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/乘法表" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 乘法表/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="输入有空格的字符串">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/输入有空格的字符串" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 输入有空格的字符串"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="输入有空格的字符串/fast">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/输入有空格的字符串" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 输入有空格的字符串/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="函数">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/函数" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 函数"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="函数/fast">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/函数" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 函数/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c乘法表">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/c乘法表" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 c乘法表"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c乘法表/fast">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/c乘法表" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 c乘法表/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="输出任意位浮点数">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/输出任意位浮点数" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 输出任意位浮点数"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="输出任意位浮点数/fast">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/输出任意位浮点数" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 输出任意位浮点数/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="二进制1个数">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/二进制1个数" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 二进制1个数"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="二进制1个数/fast">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/二进制1个数" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 二进制1个数/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="链表">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/链表" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 链表"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="链表/fast">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/链表" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 链表/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="大数加法">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/大数加法" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 大数加法"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="大数加法/fast">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/大数加法" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 大数加法/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="快速输出输入int的位数">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/快速输出输入int的位数" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 快速输出输入int的位数"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="快速输出输入int的位数/fast">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/快速输出输入int的位数" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 快速输出输入int的位数/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="指针">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/指针" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 指针"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="指针/fast">
+				<Option output="/Users/zxl/C:CPP projects/cmake-build-debug/指针" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zxl/C:CPP projects/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 指针/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zxl/C:CPP projects/基础部分/二进制1个数.c">
+			<Option target="二进制1个数"/>
+		</Unit>
+		<Unit filename="/Users/zxl/C:CPP projects/基础部分/函数.c">
+			<Option target="函数"/>
+		</Unit>
+		<Unit filename="/Users/zxl/C:CPP projects/基础部分/思考题/c乘法表.c">
+			<Option target="c乘法表"/>
+		</Unit>
+		<Unit filename="/Users/zxl/C:CPP projects/基础部分/思考题/乘法表.cpp">
+			<Option target="乘法表"/>
+		</Unit>
+		<Unit filename="/Users/zxl/C:CPP projects/基础部分/思考题/去掉倍数.c">
+			<Option target="去掉倍数"/>
+		</Unit>
+		<Unit filename="/Users/zxl/C:CPP projects/基础部分/思考题/宏定义函数.c">
+			<Option target="宏定义"/>
+		</Unit>
+		<Unit filename="/Users/zxl/C:CPP projects/基础部分/思考题/快速输出输入int的位数.c">
+			<Option target="快速输出输入int的位数"/>
+		</Unit>
+		<Unit filename="/Users/zxl/C:CPP projects/基础部分/思考题/输入有空格的字符串.c">
+			<Option target="输入有空格的字符串"/>
+		</Unit>
+		<Unit filename="/Users/zxl/C:CPP projects/基础部分/思考题/随机数.c">
+			<Option target="随机数"/>
+		</Unit>
+		<Unit filename="/Users/zxl/C:CPP projects/基础部分/指针.c">
+			<Option target="指针"/>
+		</Unit>
+		<Unit filename="/Users/zxl/C:CPP projects/基础部分/输出任意位浮点数.c">
+			<Option target="输出任意位浮点数"/>
+		</Unit>
+		<Unit filename="/Users/zxl/C:CPP projects/基础部分/遍历字符数组.c">
+			<Option target="遍历字符数组"/>
+		</Unit>
+		<Unit filename="/Users/zxl/C:CPP projects/编码能力部分/二分查找.c">
+			<Option target="二分查找"/>
+		</Unit>
+		<Unit filename="/Users/zxl/C:CPP projects/编码能力部分/因式分解.c">
+			<Option target="因式分解"/>
+		</Unit>
+		<Unit filename="/Users/zxl/C:CPP projects/编码能力部分/因数和.c">
+			<Option target="因数和"/>
+		</Unit>
+		<Unit filename="/Users/zxl/C:CPP projects/编码能力部分/大数加法.c">
+			<Option target="大数加法"/>
+		</Unit>
+		<Unit filename="/Users/zxl/C:CPP projects/编码能力部分/求素数.c">
+			<Option target="求素数"/>
+		</Unit>
+		<Unit filename="/Users/zxl/C:CPP projects/编码能力部分/链表.c">
+			<Option target="链表"/>
+		</Unit>
+		<Unit filename="/Users/zxl/C:CPP projects/编码能力部分/非递归与递归求解斐波那契数列.c">
+			<Option target="递归"/>
+		</Unit>
+		<Unit filename="/Users/zxl/C:CPP projects/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

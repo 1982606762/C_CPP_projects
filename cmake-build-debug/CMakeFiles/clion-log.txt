@@ -1,0 +1,226 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/zxl/C:CPP projects"
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:2 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "指针" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:3 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "二进制1个数" is reserved or not valid for certain
+  CMake features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:4 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "函数" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:5 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "宏定义" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:6 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "输出任意位浮点数" is reserved or not valid for
+  certain CMake features, such as generator expressions, and may result in
+  undefined behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:7 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "遍历字符数组" is reserved or not valid for certain
+  CMake features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:8 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "快速输出输入int的位数" is reserved or not valid
+  for certain CMake features, such as generator expressions, and may result
+  in undefined behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:9 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "输入有空格的字符串" is reserved or not valid for
+  certain CMake features, such as generator expressions, and may result in
+  undefined behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:10 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "乘法表" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:11 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "c乘法表" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:12 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "随机数" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:13 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "去掉倍数" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:14 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "递归" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:16 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "求素数" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:17 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "因式分解" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:18 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "因数和" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:19 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "大数加法" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:20 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "链表" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:21 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "二分查找" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/zxl/C:CPP projects/cmake-build-debug
