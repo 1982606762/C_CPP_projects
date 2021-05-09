@@ -131,30 +131,381 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 二分查找
+# Target rules for targets named qwe
 
 # Build rule for target.
-二分查找: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二分查找
-.PHONY : 二分查找
+qwe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qwe
+.PHONY : qwe
 
 # fast build rule for target.
-二分查找/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/二分查找.dir/build.make CMakeFiles/二分查找.dir/build
-.PHONY : 二分查找/fast
+qwe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qwe.dir/build.make CMakeFiles/qwe.dir/build
+.PHONY : qwe/fast
 
 #=============================================================================
-# Target rules for targets named 因式分解
+# Target rules for targets named 作业
 
 # Build rule for target.
-因式分解: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 因式分解
-.PHONY : 因式分解
+作业: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 作业
+.PHONY : 作业
 
 # fast build rule for target.
-因式分解/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/因式分解.dir/build.make CMakeFiles/因式分解.dir/build
-.PHONY : 因式分解/fast
+作业/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/作业.dir/build.make CMakeFiles/作业.dir/build
+.PHONY : 作业/fast
+
+#=============================================================================
+# Target rules for targets named 乘法表
+
+# Build rule for target.
+乘法表: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 乘法表
+.PHONY : 乘法表
+
+# fast build rule for target.
+乘法表/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/乘法表.dir/build.make CMakeFiles/乘法表.dir/build
+.PHONY : 乘法表/fast
+
+#=============================================================================
+# Target rules for targets named 链表作业
+
+# Build rule for target.
+链表作业: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 链表作业
+.PHONY : 链表作业
+
+# fast build rule for target.
+链表作业/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/链表作业.dir/build.make CMakeFiles/链表作业.dir/build
+.PHONY : 链表作业/fast
+
+#=============================================================================
+# Target rules for targets named 递归上台阶
+
+# Build rule for target.
+递归上台阶: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 递归上台阶
+.PHONY : 递归上台阶
+
+# fast build rule for target.
+递归上台阶/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/递归上台阶.dir/build.make CMakeFiles/递归上台阶.dir/build
+.PHONY : 递归上台阶/fast
+
+#=============================================================================
+# Target rules for targets named asasasas
+
+# Build rule for target.
+asasasas: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 asasasas
+.PHONY : asasasas
+
+# fast build rule for target.
+asasasas/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asasasas.dir/build.make CMakeFiles/asasasas.dir/build
+.PHONY : asasasas/fast
+
+#=============================================================================
+# Target rules for targets named queue
+
+# Build rule for target.
+queue: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 queue
+.PHONY : queue
+
+# fast build rule for target.
+queue/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/queue.dir/build.make CMakeFiles/queue.dir/build
+.PHONY : queue/fast
+
+#=============================================================================
+# Target rules for targets named stack
+
+# Build rule for target.
+stack: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 stack
+.PHONY : stack
+
+# fast build rule for target.
+stack/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stack.dir/build.make CMakeFiles/stack.dir/build
+.PHONY : stack/fast
+
+#=============================================================================
+# Target rules for targets named Day5作业
+
+# Build rule for target.
+Day5作业: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Day5作业
+.PHONY : Day5作业
+
+# fast build rule for target.
+Day5作业/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day5作业.dir/build.make CMakeFiles/Day5作业.dir/build
+.PHONY : Day5作业/fast
+
+#=============================================================================
+# Target rules for targets named 实现str函数
+
+# Build rule for target.
+实现str函数: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 实现str函数
+.PHONY : 实现str函数
+
+# fast build rule for target.
+实现str函数/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/实现str函数.dir/build.make CMakeFiles/实现str函数.dir/build
+.PHONY : 实现str函数/fast
+
+#=============================================================================
+# Target rules for targets named 指针
+
+# Build rule for target.
+指针: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 指针
+.PHONY : 指针
+
+# fast build rule for target.
+指针/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/指针.dir/build.make CMakeFiles/指针.dir/build
+.PHONY : 指针/fast
+
+#=============================================================================
+# Target rules for targets named jumper的用法
+
+# Build rule for target.
+jumper的用法: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 jumper的用法
+.PHONY : jumper的用法
+
+# fast build rule for target.
+jumper的用法/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jumper的用法.dir/build.make CMakeFiles/jumper的用法.dir/build
+.PHONY : jumper的用法/fast
+
+#=============================================================================
+# Target rules for targets named 链表
+
+# Build rule for target.
+链表: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 链表
+.PHONY : 链表
+
+# fast build rule for target.
+链表/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/链表.dir/build.make CMakeFiles/链表.dir/build
+.PHONY : 链表/fast
+
+#=============================================================================
+# Target rules for targets named zuoye
+
+# Build rule for target.
+zuoye: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zuoye
+.PHONY : zuoye
+
+# fast build rule for target.
+zuoye/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zuoye.dir/build.make CMakeFiles/zuoye.dir/build
+.PHONY : zuoye/fast
+
+#=============================================================================
+# Target rules for targets named 快速输出输入int的位数
+
+# Build rule for target.
+快速输出输入int的位数: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 快速输出输入int的位数
+.PHONY : 快速输出输入int的位数
+
+# fast build rule for target.
+快速输出输入int的位数/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/快速输出输入int的位数.dir/build.make CMakeFiles/快速输出输入int的位数.dir/build
+.PHONY : 快速输出输入int的位数/fast
+
+#=============================================================================
+# Target rules for targets named 栈
+
+# Build rule for target.
+栈: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 栈
+.PHONY : 栈
+
+# fast build rule for target.
+栈/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/栈.dir/build.make CMakeFiles/栈.dir/build
+.PHONY : 栈/fast
+
+#=============================================================================
+# Target rules for targets named 二级指针
+
+# Build rule for target.
+二级指针: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二级指针
+.PHONY : 二级指针
+
+# fast build rule for target.
+二级指针/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/二级指针.dir/build.make CMakeFiles/二级指针.dir/build
+.PHONY : 二级指针/fast
+
+#=============================================================================
+# Target rules for targets named 二叉树
+
+# Build rule for target.
+二叉树: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二叉树
+.PHONY : 二叉树
+
+# fast build rule for target.
+二叉树/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/二叉树.dir/build.make CMakeFiles/二叉树.dir/build
+.PHONY : 二叉树/fast
+
+#=============================================================================
+# Target rules for targets named 数组指针和二维数组
+
+# Build rule for target.
+数组指针和二维数组: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 数组指针和二维数组
+.PHONY : 数组指针和二维数组
+
+# fast build rule for target.
+数组指针和二维数组/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/数组指针和二维数组.dir/build.make CMakeFiles/数组指针和二维数组.dir/build
+.PHONY : 数组指针和二维数组/fast
+
+#=============================================================================
+# Target rules for targets named const指针用法
+
+# Build rule for target.
+const指针用法: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 const指针用法
+.PHONY : const指针用法
+
+# fast build rule for target.
+const指针用法/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const指针用法.dir/build.make CMakeFiles/const指针用法.dir/build
+.PHONY : const指针用法/fast
+
+#=============================================================================
+# Target rules for targets named 堆空间使用
+
+# Build rule for target.
+堆空间使用: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 堆空间使用
+.PHONY : 堆空间使用
+
+# fast build rule for target.
+堆空间使用/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/堆空间使用.dir/build.make CMakeFiles/堆空间使用.dir/build
+.PHONY : 堆空间使用/fast
+
+#=============================================================================
+# Target rules for targets named 汉诺塔
+
+# Build rule for target.
+汉诺塔: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 汉诺塔
+.PHONY : 汉诺塔
+
+# fast build rule for target.
+汉诺塔/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/汉诺塔.dir/build.make CMakeFiles/汉诺塔.dir/build
+.PHONY : 汉诺塔/fast
+
+#=============================================================================
+# Target rules for targets named jingsai
+
+# Build rule for target.
+jingsai: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 jingsai
+.PHONY : jingsai
+
+# fast build rule for target.
+jingsai/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jingsai.dir/build.make CMakeFiles/jingsai.dir/build
+.PHONY : jingsai/fast
+
+#=============================================================================
+# Target rules for targets named 心
+
+# Build rule for target.
+心: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 心
+.PHONY : 心
+
+# fast build rule for target.
+心/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/心.dir/build.make CMakeFiles/心.dir/build
+.PHONY : 心/fast
+
+#=============================================================================
+# Target rules for targets named 循环队列
+
+# Build rule for target.
+循环队列: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 循环队列
+.PHONY : 循环队列
+
+# fast build rule for target.
+循环队列/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/循环队列.dir/build.make CMakeFiles/循环队列.dir/build
+.PHONY : 循环队列/fast
+
+#=============================================================================
+# Target rules for targets named 输出对其格式
+
+# Build rule for target.
+输出对其格式: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 输出对其格式
+.PHONY : 输出对其格式
+
+# fast build rule for target.
+输出对其格式/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/输出对其格式.dir/build.make CMakeFiles/输出对其格式.dir/build
+.PHONY : 输出对其格式/fast
+
+#=============================================================================
+# Target rules for targets named 混合输入test
+
+# Build rule for target.
+混合输入test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 混合输入test
+.PHONY : 混合输入test
+
+# fast build rule for target.
+混合输入test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/混合输入test.dir/build.make CMakeFiles/混合输入test.dir/build
+.PHONY : 混合输入test/fast
+
+#=============================================================================
+# Target rules for targets named 小写字母转大写字母
+
+# Build rule for target.
+小写字母转大写字母: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 小写字母转大写字母
+.PHONY : 小写字母转大写字母
+
+# fast build rule for target.
+小写字母转大写字母/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/小写字母转大写字母.dir/build.make CMakeFiles/小写字母转大写字母.dir/build
+.PHONY : 小写字母转大写字母/fast
+
+#=============================================================================
+# Target rules for targets named 输出任意位浮点数
+
+# Build rule for target.
+输出任意位浮点数: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 输出任意位浮点数
+.PHONY : 输出任意位浮点数
+
+# fast build rule for target.
+输出任意位浮点数/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/输出任意位浮点数.dir/build.make CMakeFiles/输出任意位浮点数.dir/build
+.PHONY : 输出任意位浮点数/fast
 
 #=============================================================================
 # Target rules for targets named 因数和
@@ -170,17 +521,69 @@ depend:
 .PHONY : 因数和/fast
 
 #=============================================================================
-# Target rules for targets named 求素数
+# Target rules for targets named 1
 
 # Build rule for target.
-求素数: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 求素数
-.PHONY : 求素数
+1 : cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1
+.PHONY : 1
 
 # fast build rule for target.
-求素数/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/求素数.dir/build.make CMakeFiles/求素数.dir/build
-.PHONY : 求素数/fast
+1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/build
+.PHONY : 1/fast
+
+#=============================================================================
+# Target rules for targets named 菱形
+
+# Build rule for target.
+菱形: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 菱形
+.PHONY : 菱形
+
+# fast build rule for target.
+菱形/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/菱形.dir/build.make CMakeFiles/菱形.dir/build
+.PHONY : 菱形/fast
+
+#=============================================================================
+# Target rules for targets named 进制转换
+
+# Build rule for target.
+进制转换: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 进制转换
+.PHONY : 进制转换
+
+# fast build rule for target.
+进制转换/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/进制转换.dir/build.make CMakeFiles/进制转换.dir/build
+.PHONY : 进制转换/fast
+
+#=============================================================================
+# Target rules for targets named 二分查找
+
+# Build rule for target.
+二分查找: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二分查找
+.PHONY : 二分查找
+
+# fast build rule for target.
+二分查找/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/二分查找.dir/build.make CMakeFiles/二分查找.dir/build
+.PHONY : 二分查找/fast
+
+#=============================================================================
+# Target rules for targets named 位运算
+
+# Build rule for target.
+位运算: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 位运算
+.PHONY : 位运算
+
+# fast build rule for target.
+位运算/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/位运算.dir/build.make CMakeFiles/位运算.dir/build
+.PHONY : 位运算/fast
 
 #=============================================================================
 # Target rules for targets named 递归
@@ -194,6 +597,84 @@ depend:
 递归/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/递归.dir/build.make CMakeFiles/递归.dir/build
 .PHONY : 递归/fast
+
+#=============================================================================
+# Target rules for targets named 空心菱形
+
+# Build rule for target.
+空心菱形: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 空心菱形
+.PHONY : 空心菱形
+
+# fast build rule for target.
+空心菱形/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/空心菱形.dir/build.make CMakeFiles/空心菱形.dir/build
+.PHONY : 空心菱形/fast
+
+#=============================================================================
+# Target rules for targets named 输入有空格的字符串
+
+# Build rule for target.
+输入有空格的字符串: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 输入有空格的字符串
+.PHONY : 输入有空格的字符串
+
+# fast build rule for target.
+输入有空格的字符串/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/输入有空格的字符串.dir/build.make CMakeFiles/输入有空格的字符串.dir/build
+.PHONY : 输入有空格的字符串/fast
+
+#=============================================================================
+# Target rules for targets named 因式分解
+
+# Build rule for target.
+因式分解: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 因式分解
+.PHONY : 因式分解
+
+# fast build rule for target.
+因式分解/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/因式分解.dir/build.make CMakeFiles/因式分解.dir/build
+.PHONY : 因式分解/fast
+
+#=============================================================================
+# Target rules for targets named 计数单词个数和输出单词
+
+# Build rule for target.
+计数单词个数和输出单词: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 计数单词个数和输出单词
+.PHONY : 计数单词个数和输出单词
+
+# fast build rule for target.
+计数单词个数和输出单词/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/计数单词个数和输出单词.dir/build.make CMakeFiles/计数单词个数和输出单词.dir/build
+.PHONY : 计数单词个数和输出单词/fast
+
+#=============================================================================
+# Target rules for targets named 求素数
+
+# Build rule for target.
+求素数: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 求素数
+.PHONY : 求素数
+
+# fast build rule for target.
+求素数/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/求素数.dir/build.make CMakeFiles/求素数.dir/build
+.PHONY : 求素数/fast
+
+#=============================================================================
+# Target rules for targets named 二进制1个数
+
+# Build rule for target.
+二进制1个数: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二进制1个数
+.PHONY : 二进制1个数
+
+# fast build rule for target.
+二进制1个数/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/二进制1个数.dir/build.make CMakeFiles/二进制1个数.dir/build
+.PHONY : 二进制1个数/fast
 
 #=============================================================================
 # Target rules for targets named 随机数
@@ -222,69 +703,17 @@ depend:
 .PHONY : 去掉倍数/fast
 
 #=============================================================================
-# Target rules for targets named 遍历字符数组
+# Target rules for targets named 结构体指针
 
 # Build rule for target.
-遍历字符数组: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 遍历字符数组
-.PHONY : 遍历字符数组
+结构体指针: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 结构体指针
+.PHONY : 结构体指针
 
 # fast build rule for target.
-遍历字符数组/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/遍历字符数组.dir/build.make CMakeFiles/遍历字符数组.dir/build
-.PHONY : 遍历字符数组/fast
-
-#=============================================================================
-# Target rules for targets named 宏定义
-
-# Build rule for target.
-宏定义: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 宏定义
-.PHONY : 宏定义
-
-# fast build rule for target.
-宏定义/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/宏定义.dir/build.make CMakeFiles/宏定义.dir/build
-.PHONY : 宏定义/fast
-
-#=============================================================================
-# Target rules for targets named 乘法表
-
-# Build rule for target.
-乘法表: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 乘法表
-.PHONY : 乘法表
-
-# fast build rule for target.
-乘法表/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/乘法表.dir/build.make CMakeFiles/乘法表.dir/build
-.PHONY : 乘法表/fast
-
-#=============================================================================
-# Target rules for targets named 输入有空格的字符串
-
-# Build rule for target.
-输入有空格的字符串: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 输入有空格的字符串
-.PHONY : 输入有空格的字符串
-
-# fast build rule for target.
-输入有空格的字符串/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/输入有空格的字符串.dir/build.make CMakeFiles/输入有空格的字符串.dir/build
-.PHONY : 输入有空格的字符串/fast
-
-#=============================================================================
-# Target rules for targets named 函数
-
-# Build rule for target.
-函数: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 函数
-.PHONY : 函数
-
-# fast build rule for target.
-函数/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/函数.dir/build.make CMakeFiles/函数.dir/build
-.PHONY : 函数/fast
+结构体指针/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/结构体指针.dir/build.make CMakeFiles/结构体指针.dir/build
+.PHONY : 结构体指针/fast
 
 #=============================================================================
 # Target rules for targets named c乘法表
@@ -300,43 +729,82 @@ c乘法表/fast:
 .PHONY : c乘法表/fast
 
 #=============================================================================
-# Target rules for targets named 输出任意位浮点数
+# Target rules for targets named 遍历字符数组
 
 # Build rule for target.
-输出任意位浮点数: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 输出任意位浮点数
-.PHONY : 输出任意位浮点数
+遍历字符数组: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 遍历字符数组
+.PHONY : 遍历字符数组
 
 # fast build rule for target.
-输出任意位浮点数/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/输出任意位浮点数.dir/build.make CMakeFiles/输出任意位浮点数.dir/build
-.PHONY : 输出任意位浮点数/fast
+遍历字符数组/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/遍历字符数组.dir/build.make CMakeFiles/遍历字符数组.dir/build
+.PHONY : 遍历字符数组/fast
 
 #=============================================================================
-# Target rules for targets named 二进制1个数
+# Target rules for targets named qq
 
 # Build rule for target.
-二进制1个数: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二进制1个数
-.PHONY : 二进制1个数
+qq: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 qq
+.PHONY : qq
 
 # fast build rule for target.
-二进制1个数/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/二进制1个数.dir/build.make CMakeFiles/二进制1个数.dir/build
-.PHONY : 二进制1个数/fast
+qq/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qq.dir/build.make CMakeFiles/qq.dir/build
+.PHONY : qq/fast
 
 #=============================================================================
-# Target rules for targets named 链表
+# Target rules for targets named 插入排序
 
 # Build rule for target.
-链表: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 链表
-.PHONY : 链表
+插入排序: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 插入排序
+.PHONY : 插入排序
 
 # fast build rule for target.
-链表/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/链表.dir/build.make CMakeFiles/链表.dir/build
-.PHONY : 链表/fast
+插入排序/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/插入排序.dir/build.make CMakeFiles/插入排序.dir/build
+.PHONY : 插入排序/fast
+
+#=============================================================================
+# Target rules for targets named 宏定义
+
+# Build rule for target.
+宏定义: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 宏定义
+.PHONY : 宏定义
+
+# fast build rule for target.
+宏定义/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/宏定义.dir/build.make CMakeFiles/宏定义.dir/build
+.PHONY : 宏定义/fast
+
+#=============================================================================
+# Target rules for targets named 函数
+
+# Build rule for target.
+函数: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 函数
+.PHONY : 函数
+
+# fast build rule for target.
+函数/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/函数.dir/build.make CMakeFiles/函数.dir/build
+.PHONY : 函数/fast
+
+#=============================================================================
+# Target rules for targets named 顺序表基本接口
+
+# Build rule for target.
+顺序表基本接口: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 顺序表基本接口
+.PHONY : 顺序表基本接口
+
+# fast build rule for target.
+顺序表基本接口/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/顺序表基本接口.dir/build.make CMakeFiles/顺序表基本接口.dir/build
+.PHONY : 顺序表基本接口/fast
 
 #=============================================================================
 # Target rules for targets named 大数加法
@@ -351,544 +819,755 @@ c乘法表/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/大数加法.dir/build.make CMakeFiles/大数加法.dir/build
 .PHONY : 大数加法/fast
 
-#=============================================================================
-# Target rules for targets named 快速输出输入int的位数
+# target to build an object file
+asasasas.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asasasas.dir/build.make CMakeFiles/asasasas.dir/asasasas.o
+.PHONY : asasasas.o
 
-# Build rule for target.
-快速输出输入int的位数: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 快速输出输入int的位数
-.PHONY : 快速输出输入int的位数
+# target to preprocess a source file
+asasasas.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asasasas.dir/build.make CMakeFiles/asasasas.dir/asasasas.i
+.PHONY : asasasas.i
 
-# fast build rule for target.
-快速输出输入int的位数/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/快速输出输入int的位数.dir/build.make CMakeFiles/快速输出输入int的位数.dir/build
-.PHONY : 快速输出输入int的位数/fast
+# target to generate assembly for a file
+asasasas.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/asasasas.dir/build.make CMakeFiles/asasasas.dir/asasasas.s
+.PHONY : asasasas.s
 
-#=============================================================================
-# Target rules for targets named 指针
+# target to build an object file
+jingsai.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jingsai.dir/build.make CMakeFiles/jingsai.dir/jingsai.o
+.PHONY : jingsai.o
 
-# Build rule for target.
-指针: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 指针
-.PHONY : 指针
+# target to preprocess a source file
+jingsai.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jingsai.dir/build.make CMakeFiles/jingsai.dir/jingsai.i
+.PHONY : jingsai.i
 
-# fast build rule for target.
-指针/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/指针.dir/build.make CMakeFiles/指针.dir/build
-.PHONY : 指针/fast
+# target to generate assembly for a file
+jingsai.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jingsai.dir/build.make CMakeFiles/jingsai.dir/jingsai.s
+.PHONY : jingsai.s
 
-基础部分/二进制1个数.o: 基础部分/二进制1个数.c.o
+# target to build an object file
+qq.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qq.dir/build.make CMakeFiles/qq.dir/qq.o
+.PHONY : qq.o
 
+# target to preprocess a source file
+qq.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qq.dir/build.make CMakeFiles/qq.dir/qq.i
+.PHONY : qq.i
+
+# target to generate assembly for a file
+qq.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qq.dir/build.make CMakeFiles/qq.dir/qq.s
+.PHONY : qq.s
+
+# target to build an object file
+qwe.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qwe.dir/build.make CMakeFiles/qwe.dir/qwe.o
+.PHONY : qwe.o
+
+# target to preprocess a source file
+qwe.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qwe.dir/build.make CMakeFiles/qwe.dir/qwe.i
+.PHONY : qwe.i
+
+# target to generate assembly for a file
+qwe.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/qwe.dir/build.make CMakeFiles/qwe.dir/qwe.s
+.PHONY : qwe.s
+
+# target to build an object file
+基础部分/C督学第一周/const指针用法.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const指针用法.dir/build.make CMakeFiles/const指针用法.dir/基础部分/C督学第一周/const指针用法.o
+.PHONY : 基础部分/C督学第一周/const指针用法.o
+
+# target to preprocess a source file
+基础部分/C督学第一周/const指针用法.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const指针用法.dir/build.make CMakeFiles/const指针用法.dir/基础部分/C督学第一周/const指针用法.i
+.PHONY : 基础部分/C督学第一周/const指针用法.i
+
+# target to generate assembly for a file
+基础部分/C督学第一周/const指针用法.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/const指针用法.dir/build.make CMakeFiles/const指针用法.dir/基础部分/C督学第一周/const指针用法.s
+.PHONY : 基础部分/C督学第一周/const指针用法.s
+
+# target to build an object file
+基础部分/C督学第一周/jumper的用法.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jumper的用法.dir/build.make CMakeFiles/jumper的用法.dir/基础部分/C督学第一周/jumper的用法.o
+.PHONY : 基础部分/C督学第一周/jumper的用法.o
+
+# target to preprocess a source file
+基础部分/C督学第一周/jumper的用法.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jumper的用法.dir/build.make CMakeFiles/jumper的用法.dir/基础部分/C督学第一周/jumper的用法.i
+.PHONY : 基础部分/C督学第一周/jumper的用法.i
+
+# target to generate assembly for a file
+基础部分/C督学第一周/jumper的用法.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/jumper的用法.dir/build.make CMakeFiles/jumper的用法.dir/基础部分/C督学第一周/jumper的用法.s
+.PHONY : 基础部分/C督学第一周/jumper的用法.s
+
+# target to build an object file
+基础部分/C督学第一周/二级指针和函数指针.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/二级指针.dir/build.make CMakeFiles/二级指针.dir/基础部分/C督学第一周/二级指针和函数指针.o
+.PHONY : 基础部分/C督学第一周/二级指针和函数指针.o
+
+# target to preprocess a source file
+基础部分/C督学第一周/二级指针和函数指针.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/二级指针.dir/build.make CMakeFiles/二级指针.dir/基础部分/C督学第一周/二级指针和函数指针.i
+.PHONY : 基础部分/C督学第一周/二级指针和函数指针.i
+
+# target to generate assembly for a file
+基础部分/C督学第一周/二级指针和函数指针.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/二级指针.dir/build.make CMakeFiles/二级指针.dir/基础部分/C督学第一周/二级指针和函数指针.s
+.PHONY : 基础部分/C督学第一周/二级指针和函数指针.s
+
+# target to build an object file
+基础部分/C督学第一周/位运算.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/位运算.dir/build.make CMakeFiles/位运算.dir/基础部分/C督学第一周/位运算.o
+.PHONY : 基础部分/C督学第一周/位运算.o
+
+# target to preprocess a source file
+基础部分/C督学第一周/位运算.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/位运算.dir/build.make CMakeFiles/位运算.dir/基础部分/C督学第一周/位运算.i
+.PHONY : 基础部分/C督学第一周/位运算.i
+
+# target to generate assembly for a file
+基础部分/C督学第一周/位运算.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/位运算.dir/build.make CMakeFiles/位运算.dir/基础部分/C督学第一周/位运算.s
+.PHONY : 基础部分/C督学第一周/位运算.s
+
+# target to build an object file
+基础部分/C督学第一周/堆空间使用.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/堆空间使用.dir/build.make CMakeFiles/堆空间使用.dir/基础部分/C督学第一周/堆空间使用.o
+.PHONY : 基础部分/C督学第一周/堆空间使用.o
+
+# target to preprocess a source file
+基础部分/C督学第一周/堆空间使用.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/堆空间使用.dir/build.make CMakeFiles/堆空间使用.dir/基础部分/C督学第一周/堆空间使用.i
+.PHONY : 基础部分/C督学第一周/堆空间使用.i
+
+# target to generate assembly for a file
+基础部分/C督学第一周/堆空间使用.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/堆空间使用.dir/build.make CMakeFiles/堆空间使用.dir/基础部分/C督学第一周/堆空间使用.s
+.PHONY : 基础部分/C督学第一周/堆空间使用.s
+
+# target to build an object file
+基础部分/C督学第一周/小写字母转大写字母.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/小写字母转大写字母.dir/build.make CMakeFiles/小写字母转大写字母.dir/基础部分/C督学第一周/小写字母转大写字母.o
+.PHONY : 基础部分/C督学第一周/小写字母转大写字母.o
+
+# target to preprocess a source file
+基础部分/C督学第一周/小写字母转大写字母.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/小写字母转大写字母.dir/build.make CMakeFiles/小写字母转大写字母.dir/基础部分/C督学第一周/小写字母转大写字母.i
+.PHONY : 基础部分/C督学第一周/小写字母转大写字母.i
+
+# target to generate assembly for a file
+基础部分/C督学第一周/小写字母转大写字母.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/小写字母转大写字母.dir/build.make CMakeFiles/小写字母转大写字母.dir/基础部分/C督学第一周/小写字母转大写字母.s
+.PHONY : 基础部分/C督学第一周/小写字母转大写字母.s
+
+# target to build an object file
+基础部分/C督学第一周/心.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/心.dir/build.make CMakeFiles/心.dir/基础部分/C督学第一周/心.o
+.PHONY : 基础部分/C督学第一周/心.o
+
+# target to preprocess a source file
+基础部分/C督学第一周/心.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/心.dir/build.make CMakeFiles/心.dir/基础部分/C督学第一周/心.i
+.PHONY : 基础部分/C督学第一周/心.i
+
+# target to generate assembly for a file
+基础部分/C督学第一周/心.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/心.dir/build.make CMakeFiles/心.dir/基础部分/C督学第一周/心.s
+.PHONY : 基础部分/C督学第一周/心.s
+
+# target to build an object file
+基础部分/C督学第一周/指针.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/指针.dir/build.make CMakeFiles/指针.dir/基础部分/C督学第一周/指针.o
+.PHONY : 基础部分/C督学第一周/指针.o
+
+# target to preprocess a source file
+基础部分/C督学第一周/指针.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/指针.dir/build.make CMakeFiles/指针.dir/基础部分/C督学第一周/指针.i
+.PHONY : 基础部分/C督学第一周/指针.i
+
+# target to generate assembly for a file
+基础部分/C督学第一周/指针.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/指针.dir/build.make CMakeFiles/指针.dir/基础部分/C督学第一周/指针.s
+.PHONY : 基础部分/C督学第一周/指针.s
+
+# target to build an object file
+基础部分/C督学第一周/数组指针和二维数组.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/数组指针和二维数组.dir/build.make CMakeFiles/数组指针和二维数组.dir/基础部分/C督学第一周/数组指针和二维数组.o
+.PHONY : 基础部分/C督学第一周/数组指针和二维数组.o
+
+# target to preprocess a source file
+基础部分/C督学第一周/数组指针和二维数组.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/数组指针和二维数组.dir/build.make CMakeFiles/数组指针和二维数组.dir/基础部分/C督学第一周/数组指针和二维数组.i
+.PHONY : 基础部分/C督学第一周/数组指针和二维数组.i
+
+# target to generate assembly for a file
+基础部分/C督学第一周/数组指针和二维数组.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/数组指针和二维数组.dir/build.make CMakeFiles/数组指针和二维数组.dir/基础部分/C督学第一周/数组指针和二维数组.s
+.PHONY : 基础部分/C督学第一周/数组指针和二维数组.s
+
+# target to build an object file
+基础部分/C督学第一周/汉诺塔.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/汉诺塔.dir/build.make CMakeFiles/汉诺塔.dir/基础部分/C督学第一周/汉诺塔.o
+.PHONY : 基础部分/C督学第一周/汉诺塔.o
+
+# target to preprocess a source file
+基础部分/C督学第一周/汉诺塔.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/汉诺塔.dir/build.make CMakeFiles/汉诺塔.dir/基础部分/C督学第一周/汉诺塔.i
+.PHONY : 基础部分/C督学第一周/汉诺塔.i
+
+# target to generate assembly for a file
+基础部分/C督学第一周/汉诺塔.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/汉诺塔.dir/build.make CMakeFiles/汉诺塔.dir/基础部分/C督学第一周/汉诺塔.s
+.PHONY : 基础部分/C督学第一周/汉诺塔.s
+
+# target to build an object file
+基础部分/C督学第一周/混合输入test.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/混合输入test.dir/build.make CMakeFiles/混合输入test.dir/基础部分/C督学第一周/混合输入test.o
+.PHONY : 基础部分/C督学第一周/混合输入test.o
+
+# target to preprocess a source file
+基础部分/C督学第一周/混合输入test.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/混合输入test.dir/build.make CMakeFiles/混合输入test.dir/基础部分/C督学第一周/混合输入test.i
+.PHONY : 基础部分/C督学第一周/混合输入test.i
+
+# target to generate assembly for a file
+基础部分/C督学第一周/混合输入test.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/混合输入test.dir/build.make CMakeFiles/混合输入test.dir/基础部分/C督学第一周/混合输入test.s
+.PHONY : 基础部分/C督学第一周/混合输入test.s
+
+# target to build an object file
+基础部分/C督学第一周/空心菱形.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/空心菱形.dir/build.make CMakeFiles/空心菱形.dir/基础部分/C督学第一周/空心菱形.o
+.PHONY : 基础部分/C督学第一周/空心菱形.o
+
+# target to preprocess a source file
+基础部分/C督学第一周/空心菱形.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/空心菱形.dir/build.make CMakeFiles/空心菱形.dir/基础部分/C督学第一周/空心菱形.i
+.PHONY : 基础部分/C督学第一周/空心菱形.i
+
+# target to generate assembly for a file
+基础部分/C督学第一周/空心菱形.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/空心菱形.dir/build.make CMakeFiles/空心菱形.dir/基础部分/C督学第一周/空心菱形.s
+.PHONY : 基础部分/C督学第一周/空心菱形.s
+
+# target to build an object file
+基础部分/C督学第一周/菱形.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/菱形.dir/build.make CMakeFiles/菱形.dir/基础部分/C督学第一周/菱形.o
+.PHONY : 基础部分/C督学第一周/菱形.o
+
+# target to preprocess a source file
+基础部分/C督学第一周/菱形.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/菱形.dir/build.make CMakeFiles/菱形.dir/基础部分/C督学第一周/菱形.i
+.PHONY : 基础部分/C督学第一周/菱形.i
+
+# target to generate assembly for a file
+基础部分/C督学第一周/菱形.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/菱形.dir/build.make CMakeFiles/菱形.dir/基础部分/C督学第一周/菱形.s
+.PHONY : 基础部分/C督学第一周/菱形.s
+
+# target to build an object file
+基础部分/C督学第一周/输出对其格式.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/输出对其格式.dir/build.make CMakeFiles/输出对其格式.dir/基础部分/C督学第一周/输出对其格式.o
+.PHONY : 基础部分/C督学第一周/输出对其格式.o
+
+# target to preprocess a source file
+基础部分/C督学第一周/输出对其格式.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/输出对其格式.dir/build.make CMakeFiles/输出对其格式.dir/基础部分/C督学第一周/输出对其格式.i
+.PHONY : 基础部分/C督学第一周/输出对其格式.i
+
+# target to generate assembly for a file
+基础部分/C督学第一周/输出对其格式.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/输出对其格式.dir/build.make CMakeFiles/输出对其格式.dir/基础部分/C督学第一周/输出对其格式.s
+.PHONY : 基础部分/C督学第一周/输出对其格式.s
+
+# target to build an object file
+基础部分/C督学第一周/运算时默认使用int型.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/基础部分/C督学第一周/运算时默认使用int型.o
+.PHONY : 基础部分/C督学第一周/运算时默认使用int型.o
+
+# target to preprocess a source file
+基础部分/C督学第一周/运算时默认使用int型.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/基础部分/C督学第一周/运算时默认使用int型.i
+.PHONY : 基础部分/C督学第一周/运算时默认使用int型.i
+
+# target to generate assembly for a file
+基础部分/C督学第一周/运算时默认使用int型.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/1.dir/build.make CMakeFiles/1.dir/基础部分/C督学第一周/运算时默认使用int型.s
+.PHONY : 基础部分/C督学第一周/运算时默认使用int型.s
+
+# target to build an object file
+基础部分/C督学第一周/进制转换.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/进制转换.dir/build.make CMakeFiles/进制转换.dir/基础部分/C督学第一周/进制转换.o
+.PHONY : 基础部分/C督学第一周/进制转换.o
+
+# target to preprocess a source file
+基础部分/C督学第一周/进制转换.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/进制转换.dir/build.make CMakeFiles/进制转换.dir/基础部分/C督学第一周/进制转换.i
+.PHONY : 基础部分/C督学第一周/进制转换.i
+
+# target to generate assembly for a file
+基础部分/C督学第一周/进制转换.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/进制转换.dir/build.make CMakeFiles/进制转换.dir/基础部分/C督学第一周/进制转换.s
+.PHONY : 基础部分/C督学第一周/进制转换.s
+
+# target to build an object file
+基础部分/C督学营第三周/二叉树.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/二叉树.dir/build.make CMakeFiles/二叉树.dir/基础部分/C督学营第三周/二叉树.o
+.PHONY : 基础部分/C督学营第三周/二叉树.o
+
+# target to preprocess a source file
+基础部分/C督学营第三周/二叉树.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/二叉树.dir/build.make CMakeFiles/二叉树.dir/基础部分/C督学营第三周/二叉树.i
+.PHONY : 基础部分/C督学营第三周/二叉树.i
+
+# target to generate assembly for a file
+基础部分/C督学营第三周/二叉树.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/二叉树.dir/build.make CMakeFiles/二叉树.dir/基础部分/C督学营第三周/二叉树.s
+.PHONY : 基础部分/C督学营第三周/二叉树.s
+
+# target to build an object file
+基础部分/C督学营第三周/循环队列.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/循环队列.dir/build.make CMakeFiles/循环队列.dir/基础部分/C督学营第三周/循环队列.o
+.PHONY : 基础部分/C督学营第三周/循环队列.o
+
+# target to preprocess a source file
+基础部分/C督学营第三周/循环队列.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/循环队列.dir/build.make CMakeFiles/循环队列.dir/基础部分/C督学营第三周/循环队列.i
+.PHONY : 基础部分/C督学营第三周/循环队列.i
+
+# target to generate assembly for a file
+基础部分/C督学营第三周/循环队列.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/循环队列.dir/build.make CMakeFiles/循环队列.dir/基础部分/C督学营第三周/循环队列.s
+.PHONY : 基础部分/C督学营第三周/循环队列.s
+
+# target to build an object file
+基础部分/C督学营第三周/栈.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/栈.dir/build.make CMakeFiles/栈.dir/基础部分/C督学营第三周/栈.o
+.PHONY : 基础部分/C督学营第三周/栈.o
+
+# target to preprocess a source file
+基础部分/C督学营第三周/栈.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/栈.dir/build.make CMakeFiles/栈.dir/基础部分/C督学营第三周/栈.i
+.PHONY : 基础部分/C督学营第三周/栈.i
+
+# target to generate assembly for a file
+基础部分/C督学营第三周/栈.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/栈.dir/build.make CMakeFiles/栈.dir/基础部分/C督学营第三周/栈.s
+.PHONY : 基础部分/C督学营第三周/栈.s
+
+# target to build an object file
+基础部分/C督学营第二周/Day5作业.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day5作业.dir/build.make CMakeFiles/Day5作业.dir/基础部分/C督学营第二周/Day5作业.o
+.PHONY : 基础部分/C督学营第二周/Day5作业.o
+
+# target to preprocess a source file
+基础部分/C督学营第二周/Day5作业.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day5作业.dir/build.make CMakeFiles/Day5作业.dir/基础部分/C督学营第二周/Day5作业.i
+.PHONY : 基础部分/C督学营第二周/Day5作业.i
+
+# target to generate assembly for a file
+基础部分/C督学营第二周/Day5作业.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day5作业.dir/build.make CMakeFiles/Day5作业.dir/基础部分/C督学营第二周/Day5作业.s
+.PHONY : 基础部分/C督学营第二周/Day5作业.s
+
+# target to build an object file
+基础部分/C督学营第二周/实现str函数.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/实现str函数.dir/build.make CMakeFiles/实现str函数.dir/基础部分/C督学营第二周/实现str函数.o
+.PHONY : 基础部分/C督学营第二周/实现str函数.o
+
+# target to preprocess a source file
+基础部分/C督学营第二周/实现str函数.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/实现str函数.dir/build.make CMakeFiles/实现str函数.dir/基础部分/C督学营第二周/实现str函数.i
+.PHONY : 基础部分/C督学营第二周/实现str函数.i
+
+# target to generate assembly for a file
+基础部分/C督学营第二周/实现str函数.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/实现str函数.dir/build.make CMakeFiles/实现str函数.dir/基础部分/C督学营第二周/实现str函数.s
+.PHONY : 基础部分/C督学营第二周/实现str函数.s
+
+# target to build an object file
+基础部分/C督学营第二周/结构体指针.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/结构体指针.dir/build.make CMakeFiles/结构体指针.dir/基础部分/C督学营第二周/结构体指针.o
+.PHONY : 基础部分/C督学营第二周/结构体指针.o
+
+# target to preprocess a source file
+基础部分/C督学营第二周/结构体指针.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/结构体指针.dir/build.make CMakeFiles/结构体指针.dir/基础部分/C督学营第二周/结构体指针.i
+.PHONY : 基础部分/C督学营第二周/结构体指针.i
+
+# target to generate assembly for a file
+基础部分/C督学营第二周/结构体指针.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/结构体指针.dir/build.make CMakeFiles/结构体指针.dir/基础部分/C督学营第二周/结构体指针.s
+.PHONY : 基础部分/C督学营第二周/结构体指针.s
+
+# target to build an object file
+基础部分/C督学营第二周/计数单词个数和输出单词.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/计数单词个数和输出单词.dir/build.make CMakeFiles/计数单词个数和输出单词.dir/基础部分/C督学营第二周/计数单词个数和输出单词.o
+.PHONY : 基础部分/C督学营第二周/计数单词个数和输出单词.o
+
+# target to preprocess a source file
+基础部分/C督学营第二周/计数单词个数和输出单词.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/计数单词个数和输出单词.dir/build.make CMakeFiles/计数单词个数和输出单词.dir/基础部分/C督学营第二周/计数单词个数和输出单词.i
+.PHONY : 基础部分/C督学营第二周/计数单词个数和输出单词.i
+
+# target to generate assembly for a file
+基础部分/C督学营第二周/计数单词个数和输出单词.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/计数单词个数和输出单词.dir/build.make CMakeFiles/计数单词个数和输出单词.dir/基础部分/C督学营第二周/计数单词个数和输出单词.s
+.PHONY : 基础部分/C督学营第二周/计数单词个数和输出单词.s
+
+# target to build an object file
+基础部分/C督学营第二周/递归.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/递归上台阶.dir/build.make CMakeFiles/递归上台阶.dir/基础部分/C督学营第二周/递归.o
+.PHONY : 基础部分/C督学营第二周/递归.o
+
+# target to preprocess a source file
+基础部分/C督学营第二周/递归.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/递归上台阶.dir/build.make CMakeFiles/递归上台阶.dir/基础部分/C督学营第二周/递归.i
+.PHONY : 基础部分/C督学营第二周/递归.i
+
+# target to generate assembly for a file
+基础部分/C督学营第二周/递归.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/递归上台阶.dir/build.make CMakeFiles/递归上台阶.dir/基础部分/C督学营第二周/递归.s
+.PHONY : 基础部分/C督学营第二周/递归.s
+
+# target to build an object file
+基础部分/C督学营第二周/链表.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/链表.dir/build.make CMakeFiles/链表.dir/基础部分/C督学营第二周/链表.o
+.PHONY : 基础部分/C督学营第二周/链表.o
+
+# target to preprocess a source file
+基础部分/C督学营第二周/链表.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/链表.dir/build.make CMakeFiles/链表.dir/基础部分/C督学营第二周/链表.i
+.PHONY : 基础部分/C督学营第二周/链表.i
+
+# target to generate assembly for a file
+基础部分/C督学营第二周/链表.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/链表.dir/build.make CMakeFiles/链表.dir/基础部分/C督学营第二周/链表.s
+.PHONY : 基础部分/C督学营第二周/链表.s
+
+# target to build an object file
+基础部分/C督学营第二周/链表作业.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/链表作业.dir/build.make CMakeFiles/链表作业.dir/基础部分/C督学营第二周/链表作业.o
+.PHONY : 基础部分/C督学营第二周/链表作业.o
+
+# target to preprocess a source file
+基础部分/C督学营第二周/链表作业.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/链表作业.dir/build.make CMakeFiles/链表作业.dir/基础部分/C督学营第二周/链表作业.i
+.PHONY : 基础部分/C督学营第二周/链表作业.i
+
+# target to generate assembly for a file
+基础部分/C督学营第二周/链表作业.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/链表作业.dir/build.make CMakeFiles/链表作业.dir/基础部分/C督学营第二周/链表作业.s
+.PHONY : 基础部分/C督学营第二周/链表作业.s
+
+# target to build an object file
+基础部分/C督学营第四周/zuoye.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zuoye.dir/build.make CMakeFiles/zuoye.dir/基础部分/C督学营第四周/zuoye.o
+.PHONY : 基础部分/C督学营第四周/zuoye.o
+
+# target to preprocess a source file
+基础部分/C督学营第四周/zuoye.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zuoye.dir/build.make CMakeFiles/zuoye.dir/基础部分/C督学营第四周/zuoye.i
+.PHONY : 基础部分/C督学营第四周/zuoye.i
+
+# target to generate assembly for a file
+基础部分/C督学营第四周/zuoye.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zuoye.dir/build.make CMakeFiles/zuoye.dir/基础部分/C督学营第四周/zuoye.s
+.PHONY : 基础部分/C督学营第四周/zuoye.s
+
+# target to build an object file
+基础部分/C督学营第四周/作业.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/作业.dir/build.make CMakeFiles/作业.dir/基础部分/C督学营第四周/作业.o
+.PHONY : 基础部分/C督学营第四周/作业.o
+
+# target to preprocess a source file
+基础部分/C督学营第四周/作业.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/作业.dir/build.make CMakeFiles/作业.dir/基础部分/C督学营第四周/作业.i
+.PHONY : 基础部分/C督学营第四周/作业.i
+
+# target to generate assembly for a file
+基础部分/C督学营第四周/作业.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/作业.dir/build.make CMakeFiles/作业.dir/基础部分/C督学营第四周/作业.s
+.PHONY : 基础部分/C督学营第四周/作业.s
+
+# target to build an object file
+基础部分/C督学营第四周/插入排序.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/插入排序.dir/build.make CMakeFiles/插入排序.dir/基础部分/C督学营第四周/插入排序.o
+.PHONY : 基础部分/C督学营第四周/插入排序.o
+
+# target to preprocess a source file
+基础部分/C督学营第四周/插入排序.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/插入排序.dir/build.make CMakeFiles/插入排序.dir/基础部分/C督学营第四周/插入排序.i
+.PHONY : 基础部分/C督学营第四周/插入排序.i
+
+# target to generate assembly for a file
+基础部分/C督学营第四周/插入排序.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/插入排序.dir/build.make CMakeFiles/插入排序.dir/基础部分/C督学营第四周/插入排序.s
+.PHONY : 基础部分/C督学营第四周/插入排序.s
+
+# target to build an object file
+基础部分/二进制1个数.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/二进制1个数.dir/build.make CMakeFiles/二进制1个数.dir/基础部分/二进制1个数.o
 .PHONY : 基础部分/二进制1个数.o
 
-# target to build an object file
-基础部分/二进制1个数.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/二进制1个数.dir/build.make CMakeFiles/二进制1个数.dir/基础部分/二进制1个数.c.o
-.PHONY : 基础部分/二进制1个数.c.o
-
-基础部分/二进制1个数.i: 基础部分/二进制1个数.c.i
-
+# target to preprocess a source file
+基础部分/二进制1个数.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/二进制1个数.dir/build.make CMakeFiles/二进制1个数.dir/基础部分/二进制1个数.i
 .PHONY : 基础部分/二进制1个数.i
 
-# target to preprocess a source file
-基础部分/二进制1个数.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/二进制1个数.dir/build.make CMakeFiles/二进制1个数.dir/基础部分/二进制1个数.c.i
-.PHONY : 基础部分/二进制1个数.c.i
-
-基础部分/二进制1个数.s: 基础部分/二进制1个数.c.s
-
+# target to generate assembly for a file
+基础部分/二进制1个数.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/二进制1个数.dir/build.make CMakeFiles/二进制1个数.dir/基础部分/二进制1个数.s
 .PHONY : 基础部分/二进制1个数.s
 
-# target to generate assembly for a file
-基础部分/二进制1个数.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/二进制1个数.dir/build.make CMakeFiles/二进制1个数.dir/基础部分/二进制1个数.c.s
-.PHONY : 基础部分/二进制1个数.c.s
-
-基础部分/函数.o: 基础部分/函数.c.o
-
+# target to build an object file
+基础部分/函数.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/函数.dir/build.make CMakeFiles/函数.dir/基础部分/函数.o
 .PHONY : 基础部分/函数.o
 
-# target to build an object file
-基础部分/函数.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/函数.dir/build.make CMakeFiles/函数.dir/基础部分/函数.c.o
-.PHONY : 基础部分/函数.c.o
-
-基础部分/函数.i: 基础部分/函数.c.i
-
+# target to preprocess a source file
+基础部分/函数.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/函数.dir/build.make CMakeFiles/函数.dir/基础部分/函数.i
 .PHONY : 基础部分/函数.i
 
-# target to preprocess a source file
-基础部分/函数.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/函数.dir/build.make CMakeFiles/函数.dir/基础部分/函数.c.i
-.PHONY : 基础部分/函数.c.i
-
-基础部分/函数.s: 基础部分/函数.c.s
-
+# target to generate assembly for a file
+基础部分/函数.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/函数.dir/build.make CMakeFiles/函数.dir/基础部分/函数.s
 .PHONY : 基础部分/函数.s
 
-# target to generate assembly for a file
-基础部分/函数.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/函数.dir/build.make CMakeFiles/函数.dir/基础部分/函数.c.s
-.PHONY : 基础部分/函数.c.s
-
-基础部分/思考题/c乘法表.o: 基础部分/思考题/c乘法表.c.o
-
+# target to build an object file
+基础部分/思考题/c乘法表.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c乘法表.dir/build.make CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.o
 .PHONY : 基础部分/思考题/c乘法表.o
 
-# target to build an object file
-基础部分/思考题/c乘法表.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c乘法表.dir/build.make CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.c.o
-.PHONY : 基础部分/思考题/c乘法表.c.o
-
-基础部分/思考题/c乘法表.i: 基础部分/思考题/c乘法表.c.i
-
+# target to preprocess a source file
+基础部分/思考题/c乘法表.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c乘法表.dir/build.make CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.i
 .PHONY : 基础部分/思考题/c乘法表.i
 
-# target to preprocess a source file
-基础部分/思考题/c乘法表.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c乘法表.dir/build.make CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.c.i
-.PHONY : 基础部分/思考题/c乘法表.c.i
-
-基础部分/思考题/c乘法表.s: 基础部分/思考题/c乘法表.c.s
-
+# target to generate assembly for a file
+基础部分/思考题/c乘法表.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c乘法表.dir/build.make CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.s
 .PHONY : 基础部分/思考题/c乘法表.s
 
-# target to generate assembly for a file
-基础部分/思考题/c乘法表.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c乘法表.dir/build.make CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.c.s
-.PHONY : 基础部分/思考题/c乘法表.c.s
-
-基础部分/思考题/乘法表.o: 基础部分/思考题/乘法表.cpp.o
-
+# target to build an object file
+基础部分/思考题/乘法表.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/乘法表.dir/build.make CMakeFiles/乘法表.dir/基础部分/思考题/乘法表.o
 .PHONY : 基础部分/思考题/乘法表.o
 
-# target to build an object file
-基础部分/思考题/乘法表.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/乘法表.dir/build.make CMakeFiles/乘法表.dir/基础部分/思考题/乘法表.cpp.o
-.PHONY : 基础部分/思考题/乘法表.cpp.o
-
-基础部分/思考题/乘法表.i: 基础部分/思考题/乘法表.cpp.i
-
+# target to preprocess a source file
+基础部分/思考题/乘法表.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/乘法表.dir/build.make CMakeFiles/乘法表.dir/基础部分/思考题/乘法表.i
 .PHONY : 基础部分/思考题/乘法表.i
 
-# target to preprocess a source file
-基础部分/思考题/乘法表.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/乘法表.dir/build.make CMakeFiles/乘法表.dir/基础部分/思考题/乘法表.cpp.i
-.PHONY : 基础部分/思考题/乘法表.cpp.i
-
-基础部分/思考题/乘法表.s: 基础部分/思考题/乘法表.cpp.s
-
+# target to generate assembly for a file
+基础部分/思考题/乘法表.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/乘法表.dir/build.make CMakeFiles/乘法表.dir/基础部分/思考题/乘法表.s
 .PHONY : 基础部分/思考题/乘法表.s
 
-# target to generate assembly for a file
-基础部分/思考题/乘法表.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/乘法表.dir/build.make CMakeFiles/乘法表.dir/基础部分/思考题/乘法表.cpp.s
-.PHONY : 基础部分/思考题/乘法表.cpp.s
-
-基础部分/思考题/去掉倍数.o: 基础部分/思考题/去掉倍数.c.o
-
+# target to build an object file
+基础部分/思考题/去掉倍数.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/去掉倍数.dir/build.make CMakeFiles/去掉倍数.dir/基础部分/思考题/去掉倍数.o
 .PHONY : 基础部分/思考题/去掉倍数.o
 
-# target to build an object file
-基础部分/思考题/去掉倍数.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/去掉倍数.dir/build.make CMakeFiles/去掉倍数.dir/基础部分/思考题/去掉倍数.c.o
-.PHONY : 基础部分/思考题/去掉倍数.c.o
-
-基础部分/思考题/去掉倍数.i: 基础部分/思考题/去掉倍数.c.i
-
+# target to preprocess a source file
+基础部分/思考题/去掉倍数.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/去掉倍数.dir/build.make CMakeFiles/去掉倍数.dir/基础部分/思考题/去掉倍数.i
 .PHONY : 基础部分/思考题/去掉倍数.i
 
-# target to preprocess a source file
-基础部分/思考题/去掉倍数.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/去掉倍数.dir/build.make CMakeFiles/去掉倍数.dir/基础部分/思考题/去掉倍数.c.i
-.PHONY : 基础部分/思考题/去掉倍数.c.i
-
-基础部分/思考题/去掉倍数.s: 基础部分/思考题/去掉倍数.c.s
-
+# target to generate assembly for a file
+基础部分/思考题/去掉倍数.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/去掉倍数.dir/build.make CMakeFiles/去掉倍数.dir/基础部分/思考题/去掉倍数.s
 .PHONY : 基础部分/思考题/去掉倍数.s
 
-# target to generate assembly for a file
-基础部分/思考题/去掉倍数.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/去掉倍数.dir/build.make CMakeFiles/去掉倍数.dir/基础部分/思考题/去掉倍数.c.s
-.PHONY : 基础部分/思考题/去掉倍数.c.s
-
-基础部分/思考题/宏定义函数.o: 基础部分/思考题/宏定义函数.c.o
-
+# target to build an object file
+基础部分/思考题/宏定义函数.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/宏定义.dir/build.make CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.o
 .PHONY : 基础部分/思考题/宏定义函数.o
 
-# target to build an object file
-基础部分/思考题/宏定义函数.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/宏定义.dir/build.make CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.c.o
-.PHONY : 基础部分/思考题/宏定义函数.c.o
-
-基础部分/思考题/宏定义函数.i: 基础部分/思考题/宏定义函数.c.i
-
+# target to preprocess a source file
+基础部分/思考题/宏定义函数.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/宏定义.dir/build.make CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.i
 .PHONY : 基础部分/思考题/宏定义函数.i
 
-# target to preprocess a source file
-基础部分/思考题/宏定义函数.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/宏定义.dir/build.make CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.c.i
-.PHONY : 基础部分/思考题/宏定义函数.c.i
-
-基础部分/思考题/宏定义函数.s: 基础部分/思考题/宏定义函数.c.s
-
+# target to generate assembly for a file
+基础部分/思考题/宏定义函数.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/宏定义.dir/build.make CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.s
 .PHONY : 基础部分/思考题/宏定义函数.s
 
-# target to generate assembly for a file
-基础部分/思考题/宏定义函数.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/宏定义.dir/build.make CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.c.s
-.PHONY : 基础部分/思考题/宏定义函数.c.s
-
-基础部分/思考题/快速输出输入int的位数.o: 基础部分/思考题/快速输出输入int的位数.c.o
-
+# target to build an object file
+基础部分/思考题/快速输出输入int的位数.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/快速输出输入int的位数.dir/build.make CMakeFiles/快速输出输入int的位数.dir/基础部分/思考题/快速输出输入int的位数.o
 .PHONY : 基础部分/思考题/快速输出输入int的位数.o
 
-# target to build an object file
-基础部分/思考题/快速输出输入int的位数.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/快速输出输入int的位数.dir/build.make CMakeFiles/快速输出输入int的位数.dir/基础部分/思考题/快速输出输入int的位数.c.o
-.PHONY : 基础部分/思考题/快速输出输入int的位数.c.o
-
-基础部分/思考题/快速输出输入int的位数.i: 基础部分/思考题/快速输出输入int的位数.c.i
-
+# target to preprocess a source file
+基础部分/思考题/快速输出输入int的位数.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/快速输出输入int的位数.dir/build.make CMakeFiles/快速输出输入int的位数.dir/基础部分/思考题/快速输出输入int的位数.i
 .PHONY : 基础部分/思考题/快速输出输入int的位数.i
 
-# target to preprocess a source file
-基础部分/思考题/快速输出输入int的位数.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/快速输出输入int的位数.dir/build.make CMakeFiles/快速输出输入int的位数.dir/基础部分/思考题/快速输出输入int的位数.c.i
-.PHONY : 基础部分/思考题/快速输出输入int的位数.c.i
-
-基础部分/思考题/快速输出输入int的位数.s: 基础部分/思考题/快速输出输入int的位数.c.s
-
+# target to generate assembly for a file
+基础部分/思考题/快速输出输入int的位数.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/快速输出输入int的位数.dir/build.make CMakeFiles/快速输出输入int的位数.dir/基础部分/思考题/快速输出输入int的位数.s
 .PHONY : 基础部分/思考题/快速输出输入int的位数.s
 
-# target to generate assembly for a file
-基础部分/思考题/快速输出输入int的位数.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/快速输出输入int的位数.dir/build.make CMakeFiles/快速输出输入int的位数.dir/基础部分/思考题/快速输出输入int的位数.c.s
-.PHONY : 基础部分/思考题/快速输出输入int的位数.c.s
-
-基础部分/思考题/输入有空格的字符串.o: 基础部分/思考题/输入有空格的字符串.c.o
-
+# target to build an object file
+基础部分/思考题/输入有空格的字符串.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/输入有空格的字符串.dir/build.make CMakeFiles/输入有空格的字符串.dir/基础部分/思考题/输入有空格的字符串.o
 .PHONY : 基础部分/思考题/输入有空格的字符串.o
 
-# target to build an object file
-基础部分/思考题/输入有空格的字符串.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/输入有空格的字符串.dir/build.make CMakeFiles/输入有空格的字符串.dir/基础部分/思考题/输入有空格的字符串.c.o
-.PHONY : 基础部分/思考题/输入有空格的字符串.c.o
-
-基础部分/思考题/输入有空格的字符串.i: 基础部分/思考题/输入有空格的字符串.c.i
-
+# target to preprocess a source file
+基础部分/思考题/输入有空格的字符串.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/输入有空格的字符串.dir/build.make CMakeFiles/输入有空格的字符串.dir/基础部分/思考题/输入有空格的字符串.i
 .PHONY : 基础部分/思考题/输入有空格的字符串.i
 
-# target to preprocess a source file
-基础部分/思考题/输入有空格的字符串.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/输入有空格的字符串.dir/build.make CMakeFiles/输入有空格的字符串.dir/基础部分/思考题/输入有空格的字符串.c.i
-.PHONY : 基础部分/思考题/输入有空格的字符串.c.i
-
-基础部分/思考题/输入有空格的字符串.s: 基础部分/思考题/输入有空格的字符串.c.s
-
+# target to generate assembly for a file
+基础部分/思考题/输入有空格的字符串.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/输入有空格的字符串.dir/build.make CMakeFiles/输入有空格的字符串.dir/基础部分/思考题/输入有空格的字符串.s
 .PHONY : 基础部分/思考题/输入有空格的字符串.s
 
-# target to generate assembly for a file
-基础部分/思考题/输入有空格的字符串.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/输入有空格的字符串.dir/build.make CMakeFiles/输入有空格的字符串.dir/基础部分/思考题/输入有空格的字符串.c.s
-.PHONY : 基础部分/思考题/输入有空格的字符串.c.s
-
-基础部分/思考题/随机数.o: 基础部分/思考题/随机数.c.o
-
+# target to build an object file
+基础部分/思考题/随机数.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/随机数.dir/build.make CMakeFiles/随机数.dir/基础部分/思考题/随机数.o
 .PHONY : 基础部分/思考题/随机数.o
 
-# target to build an object file
-基础部分/思考题/随机数.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/随机数.dir/build.make CMakeFiles/随机数.dir/基础部分/思考题/随机数.c.o
-.PHONY : 基础部分/思考题/随机数.c.o
-
-基础部分/思考题/随机数.i: 基础部分/思考题/随机数.c.i
-
+# target to preprocess a source file
+基础部分/思考题/随机数.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/随机数.dir/build.make CMakeFiles/随机数.dir/基础部分/思考题/随机数.i
 .PHONY : 基础部分/思考题/随机数.i
 
-# target to preprocess a source file
-基础部分/思考题/随机数.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/随机数.dir/build.make CMakeFiles/随机数.dir/基础部分/思考题/随机数.c.i
-.PHONY : 基础部分/思考题/随机数.c.i
-
-基础部分/思考题/随机数.s: 基础部分/思考题/随机数.c.s
-
+# target to generate assembly for a file
+基础部分/思考题/随机数.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/随机数.dir/build.make CMakeFiles/随机数.dir/基础部分/思考题/随机数.s
 .PHONY : 基础部分/思考题/随机数.s
 
-# target to generate assembly for a file
-基础部分/思考题/随机数.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/随机数.dir/build.make CMakeFiles/随机数.dir/基础部分/思考题/随机数.c.s
-.PHONY : 基础部分/思考题/随机数.c.s
-
-基础部分/指针.o: 基础部分/指针.c.o
-
-.PHONY : 基础部分/指针.o
-
 # target to build an object file
-基础部分/指针.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/指针.dir/build.make CMakeFiles/指针.dir/基础部分/指针.c.o
-.PHONY : 基础部分/指针.c.o
-
-基础部分/指针.i: 基础部分/指针.c.i
-
-.PHONY : 基础部分/指针.i
-
-# target to preprocess a source file
-基础部分/指针.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/指针.dir/build.make CMakeFiles/指针.dir/基础部分/指针.c.i
-.PHONY : 基础部分/指针.c.i
-
-基础部分/指针.s: 基础部分/指针.c.s
-
-.PHONY : 基础部分/指针.s
-
-# target to generate assembly for a file
-基础部分/指针.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/指针.dir/build.make CMakeFiles/指针.dir/基础部分/指针.c.s
-.PHONY : 基础部分/指针.c.s
-
-基础部分/输出任意位浮点数.o: 基础部分/输出任意位浮点数.c.o
-
+基础部分/输出任意位浮点数.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/输出任意位浮点数.dir/build.make CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.o
 .PHONY : 基础部分/输出任意位浮点数.o
 
-# target to build an object file
-基础部分/输出任意位浮点数.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/输出任意位浮点数.dir/build.make CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.c.o
-.PHONY : 基础部分/输出任意位浮点数.c.o
-
-基础部分/输出任意位浮点数.i: 基础部分/输出任意位浮点数.c.i
-
+# target to preprocess a source file
+基础部分/输出任意位浮点数.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/输出任意位浮点数.dir/build.make CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.i
 .PHONY : 基础部分/输出任意位浮点数.i
 
-# target to preprocess a source file
-基础部分/输出任意位浮点数.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/输出任意位浮点数.dir/build.make CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.c.i
-.PHONY : 基础部分/输出任意位浮点数.c.i
-
-基础部分/输出任意位浮点数.s: 基础部分/输出任意位浮点数.c.s
-
+# target to generate assembly for a file
+基础部分/输出任意位浮点数.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/输出任意位浮点数.dir/build.make CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.s
 .PHONY : 基础部分/输出任意位浮点数.s
 
-# target to generate assembly for a file
-基础部分/输出任意位浮点数.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/输出任意位浮点数.dir/build.make CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.c.s
-.PHONY : 基础部分/输出任意位浮点数.c.s
-
-基础部分/遍历字符数组.o: 基础部分/遍历字符数组.c.o
-
+# target to build an object file
+基础部分/遍历字符数组.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/遍历字符数组.dir/build.make CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.o
 .PHONY : 基础部分/遍历字符数组.o
 
-# target to build an object file
-基础部分/遍历字符数组.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/遍历字符数组.dir/build.make CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.c.o
-.PHONY : 基础部分/遍历字符数组.c.o
-
-基础部分/遍历字符数组.i: 基础部分/遍历字符数组.c.i
-
+# target to preprocess a source file
+基础部分/遍历字符数组.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/遍历字符数组.dir/build.make CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.i
 .PHONY : 基础部分/遍历字符数组.i
 
-# target to preprocess a source file
-基础部分/遍历字符数组.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/遍历字符数组.dir/build.make CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.c.i
-.PHONY : 基础部分/遍历字符数组.c.i
-
-基础部分/遍历字符数组.s: 基础部分/遍历字符数组.c.s
-
+# target to generate assembly for a file
+基础部分/遍历字符数组.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/遍历字符数组.dir/build.make CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.s
 .PHONY : 基础部分/遍历字符数组.s
 
-# target to generate assembly for a file
-基础部分/遍历字符数组.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/遍历字符数组.dir/build.make CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.c.s
-.PHONY : 基础部分/遍历字符数组.c.s
-
-编码能力部分/二分查找.o: 编码能力部分/二分查找.c.o
-
+# target to build an object file
+编码能力部分/二分查找.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/二分查找.dir/build.make CMakeFiles/二分查找.dir/编码能力部分/二分查找.o
 .PHONY : 编码能力部分/二分查找.o
 
-# target to build an object file
-编码能力部分/二分查找.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/二分查找.dir/build.make CMakeFiles/二分查找.dir/编码能力部分/二分查找.c.o
-.PHONY : 编码能力部分/二分查找.c.o
-
-编码能力部分/二分查找.i: 编码能力部分/二分查找.c.i
-
+# target to preprocess a source file
+编码能力部分/二分查找.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/二分查找.dir/build.make CMakeFiles/二分查找.dir/编码能力部分/二分查找.i
 .PHONY : 编码能力部分/二分查找.i
 
-# target to preprocess a source file
-编码能力部分/二分查找.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/二分查找.dir/build.make CMakeFiles/二分查找.dir/编码能力部分/二分查找.c.i
-.PHONY : 编码能力部分/二分查找.c.i
-
-编码能力部分/二分查找.s: 编码能力部分/二分查找.c.s
-
+# target to generate assembly for a file
+编码能力部分/二分查找.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/二分查找.dir/build.make CMakeFiles/二分查找.dir/编码能力部分/二分查找.s
 .PHONY : 编码能力部分/二分查找.s
 
-# target to generate assembly for a file
-编码能力部分/二分查找.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/二分查找.dir/build.make CMakeFiles/二分查找.dir/编码能力部分/二分查找.c.s
-.PHONY : 编码能力部分/二分查找.c.s
-
-编码能力部分/因式分解.o: 编码能力部分/因式分解.c.o
-
+# target to build an object file
+编码能力部分/因式分解.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/因式分解.dir/build.make CMakeFiles/因式分解.dir/编码能力部分/因式分解.o
 .PHONY : 编码能力部分/因式分解.o
 
-# target to build an object file
-编码能力部分/因式分解.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/因式分解.dir/build.make CMakeFiles/因式分解.dir/编码能力部分/因式分解.c.o
-.PHONY : 编码能力部分/因式分解.c.o
-
-编码能力部分/因式分解.i: 编码能力部分/因式分解.c.i
-
+# target to preprocess a source file
+编码能力部分/因式分解.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/因式分解.dir/build.make CMakeFiles/因式分解.dir/编码能力部分/因式分解.i
 .PHONY : 编码能力部分/因式分解.i
 
-# target to preprocess a source file
-编码能力部分/因式分解.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/因式分解.dir/build.make CMakeFiles/因式分解.dir/编码能力部分/因式分解.c.i
-.PHONY : 编码能力部分/因式分解.c.i
-
-编码能力部分/因式分解.s: 编码能力部分/因式分解.c.s
-
+# target to generate assembly for a file
+编码能力部分/因式分解.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/因式分解.dir/build.make CMakeFiles/因式分解.dir/编码能力部分/因式分解.s
 .PHONY : 编码能力部分/因式分解.s
 
-# target to generate assembly for a file
-编码能力部分/因式分解.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/因式分解.dir/build.make CMakeFiles/因式分解.dir/编码能力部分/因式分解.c.s
-.PHONY : 编码能力部分/因式分解.c.s
-
-编码能力部分/因数和.o: 编码能力部分/因数和.c.o
-
+# target to build an object file
+编码能力部分/因数和.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/因数和.dir/build.make CMakeFiles/因数和.dir/编码能力部分/因数和.o
 .PHONY : 编码能力部分/因数和.o
 
-# target to build an object file
-编码能力部分/因数和.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/因数和.dir/build.make CMakeFiles/因数和.dir/编码能力部分/因数和.c.o
-.PHONY : 编码能力部分/因数和.c.o
-
-编码能力部分/因数和.i: 编码能力部分/因数和.c.i
-
+# target to preprocess a source file
+编码能力部分/因数和.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/因数和.dir/build.make CMakeFiles/因数和.dir/编码能力部分/因数和.i
 .PHONY : 编码能力部分/因数和.i
 
-# target to preprocess a source file
-编码能力部分/因数和.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/因数和.dir/build.make CMakeFiles/因数和.dir/编码能力部分/因数和.c.i
-.PHONY : 编码能力部分/因数和.c.i
-
-编码能力部分/因数和.s: 编码能力部分/因数和.c.s
-
+# target to generate assembly for a file
+编码能力部分/因数和.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/因数和.dir/build.make CMakeFiles/因数和.dir/编码能力部分/因数和.s
 .PHONY : 编码能力部分/因数和.s
 
-# target to generate assembly for a file
-编码能力部分/因数和.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/因数和.dir/build.make CMakeFiles/因数和.dir/编码能力部分/因数和.c.s
-.PHONY : 编码能力部分/因数和.c.s
-
-编码能力部分/大数加法.o: 编码能力部分/大数加法.c.o
-
+# target to build an object file
+编码能力部分/大数加法.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/大数加法.dir/build.make CMakeFiles/大数加法.dir/编码能力部分/大数加法.o
 .PHONY : 编码能力部分/大数加法.o
 
-# target to build an object file
-编码能力部分/大数加法.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/大数加法.dir/build.make CMakeFiles/大数加法.dir/编码能力部分/大数加法.c.o
-.PHONY : 编码能力部分/大数加法.c.o
-
-编码能力部分/大数加法.i: 编码能力部分/大数加法.c.i
-
+# target to preprocess a source file
+编码能力部分/大数加法.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/大数加法.dir/build.make CMakeFiles/大数加法.dir/编码能力部分/大数加法.i
 .PHONY : 编码能力部分/大数加法.i
 
-# target to preprocess a source file
-编码能力部分/大数加法.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/大数加法.dir/build.make CMakeFiles/大数加法.dir/编码能力部分/大数加法.c.i
-.PHONY : 编码能力部分/大数加法.c.i
-
-编码能力部分/大数加法.s: 编码能力部分/大数加法.c.s
-
+# target to generate assembly for a file
+编码能力部分/大数加法.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/大数加法.dir/build.make CMakeFiles/大数加法.dir/编码能力部分/大数加法.s
 .PHONY : 编码能力部分/大数加法.s
 
-# target to generate assembly for a file
-编码能力部分/大数加法.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/大数加法.dir/build.make CMakeFiles/大数加法.dir/编码能力部分/大数加法.c.s
-.PHONY : 编码能力部分/大数加法.c.s
-
-编码能力部分/求素数.o: 编码能力部分/求素数.c.o
-
+# target to build an object file
+编码能力部分/求素数.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/求素数.dir/build.make CMakeFiles/求素数.dir/编码能力部分/求素数.o
 .PHONY : 编码能力部分/求素数.o
 
-# target to build an object file
-编码能力部分/求素数.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/求素数.dir/build.make CMakeFiles/求素数.dir/编码能力部分/求素数.c.o
-.PHONY : 编码能力部分/求素数.c.o
-
-编码能力部分/求素数.i: 编码能力部分/求素数.c.i
-
+# target to preprocess a source file
+编码能力部分/求素数.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/求素数.dir/build.make CMakeFiles/求素数.dir/编码能力部分/求素数.i
 .PHONY : 编码能力部分/求素数.i
 
-# target to preprocess a source file
-编码能力部分/求素数.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/求素数.dir/build.make CMakeFiles/求素数.dir/编码能力部分/求素数.c.i
-.PHONY : 编码能力部分/求素数.c.i
-
-编码能力部分/求素数.s: 编码能力部分/求素数.c.s
-
+# target to generate assembly for a file
+编码能力部分/求素数.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/求素数.dir/build.make CMakeFiles/求素数.dir/编码能力部分/求素数.s
 .PHONY : 编码能力部分/求素数.s
 
-# target to generate assembly for a file
-编码能力部分/求素数.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/求素数.dir/build.make CMakeFiles/求素数.dir/编码能力部分/求素数.c.s
-.PHONY : 编码能力部分/求素数.c.s
-
-编码能力部分/链表.o: 编码能力部分/链表.c.o
-
-.PHONY : 编码能力部分/链表.o
-
 # target to build an object file
-编码能力部分/链表.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/链表.dir/build.make CMakeFiles/链表.dir/编码能力部分/链表.c.o
-.PHONY : 编码能力部分/链表.c.o
-
-编码能力部分/链表.i: 编码能力部分/链表.c.i
-
-.PHONY : 编码能力部分/链表.i
-
-# target to preprocess a source file
-编码能力部分/链表.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/链表.dir/build.make CMakeFiles/链表.dir/编码能力部分/链表.c.i
-.PHONY : 编码能力部分/链表.c.i
-
-编码能力部分/链表.s: 编码能力部分/链表.c.s
-
-.PHONY : 编码能力部分/链表.s
-
-# target to generate assembly for a file
-编码能力部分/链表.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/链表.dir/build.make CMakeFiles/链表.dir/编码能力部分/链表.c.s
-.PHONY : 编码能力部分/链表.c.s
-
-编码能力部分/非递归与递归求解斐波那契数列.o: 编码能力部分/非递归与递归求解斐波那契数列.c.o
-
+编码能力部分/非递归与递归求解斐波那契数列.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/递归.dir/build.make CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.o
 .PHONY : 编码能力部分/非递归与递归求解斐波那契数列.o
 
-# target to build an object file
-编码能力部分/非递归与递归求解斐波那契数列.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/递归.dir/build.make CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.c.o
-.PHONY : 编码能力部分/非递归与递归求解斐波那契数列.c.o
-
-编码能力部分/非递归与递归求解斐波那契数列.i: 编码能力部分/非递归与递归求解斐波那契数列.c.i
-
+# target to preprocess a source file
+编码能力部分/非递归与递归求解斐波那契数列.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/递归.dir/build.make CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.i
 .PHONY : 编码能力部分/非递归与递归求解斐波那契数列.i
 
-# target to preprocess a source file
-编码能力部分/非递归与递归求解斐波那契数列.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/递归.dir/build.make CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.c.i
-.PHONY : 编码能力部分/非递归与递归求解斐波那契数列.c.i
-
-编码能力部分/非递归与递归求解斐波那契数列.s: 编码能力部分/非递归与递归求解斐波那契数列.c.s
-
-.PHONY : 编码能力部分/非递归与递归求解斐波那契数列.s
-
 # target to generate assembly for a file
-编码能力部分/非递归与递归求解斐波那契数列.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/递归.dir/build.make CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.c.s
-.PHONY : 编码能力部分/非递归与递归求解斐波那契数列.c.s
+编码能力部分/非递归与递归求解斐波那契数列.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/递归.dir/build.make CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.s
+.PHONY : 编码能力部分/非递归与递归求解斐波那契数列.s
 
 # Help Target
 help:
@@ -898,25 +1577,158 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... 1"
+	@echo "... Day5作业"
+	@echo "... asasasas"
+	@echo "... const指针用法"
 	@echo "... c乘法表"
+	@echo "... jingsai"
+	@echo "... jumper的用法"
+	@echo "... qq"
+	@echo "... queue"
+	@echo "... qwe"
+	@echo "... stack"
+	@echo "... zuoye"
 	@echo "... 乘法表"
 	@echo "... 二分查找"
+	@echo "... 二叉树"
+	@echo "... 二级指针"
 	@echo "... 二进制1个数"
+	@echo "... 位运算"
+	@echo "... 作业"
 	@echo "... 函数"
 	@echo "... 去掉倍数"
 	@echo "... 因式分解"
 	@echo "... 因数和"
+	@echo "... 堆空间使用"
 	@echo "... 大数加法"
 	@echo "... 宏定义"
+	@echo "... 实现str函数"
+	@echo "... 小写字母转大写字母"
+	@echo "... 循环队列"
+	@echo "... 心"
 	@echo "... 快速输出输入int的位数"
 	@echo "... 指针"
+	@echo "... 插入排序"
+	@echo "... 数组指针和二维数组"
+	@echo "... 栈"
 	@echo "... 求素数"
+	@echo "... 汉诺塔"
+	@echo "... 混合输入test"
+	@echo "... 空心菱形"
+	@echo "... 结构体指针"
+	@echo "... 菱形"
+	@echo "... 计数单词个数和输出单词"
 	@echo "... 输入有空格的字符串"
 	@echo "... 输出任意位浮点数"
+	@echo "... 输出对其格式"
+	@echo "... 进制转换"
 	@echo "... 递归"
+	@echo "... 递归上台阶"
 	@echo "... 遍历字符数组"
 	@echo "... 链表"
+	@echo "... 链表作业"
 	@echo "... 随机数"
+	@echo "... 顺序表基本接口"
+	@echo "... asasasas.o"
+	@echo "... asasasas.i"
+	@echo "... asasasas.s"
+	@echo "... jingsai.o"
+	@echo "... jingsai.i"
+	@echo "... jingsai.s"
+	@echo "... qq.o"
+	@echo "... qq.i"
+	@echo "... qq.s"
+	@echo "... qwe.o"
+	@echo "... qwe.i"
+	@echo "... qwe.s"
+	@echo "... 基础部分/C督学第一周/const指针用法.o"
+	@echo "... 基础部分/C督学第一周/const指针用法.i"
+	@echo "... 基础部分/C督学第一周/const指针用法.s"
+	@echo "... 基础部分/C督学第一周/jumper的用法.o"
+	@echo "... 基础部分/C督学第一周/jumper的用法.i"
+	@echo "... 基础部分/C督学第一周/jumper的用法.s"
+	@echo "... 基础部分/C督学第一周/二级指针和函数指针.o"
+	@echo "... 基础部分/C督学第一周/二级指针和函数指针.i"
+	@echo "... 基础部分/C督学第一周/二级指针和函数指针.s"
+	@echo "... 基础部分/C督学第一周/位运算.o"
+	@echo "... 基础部分/C督学第一周/位运算.i"
+	@echo "... 基础部分/C督学第一周/位运算.s"
+	@echo "... 基础部分/C督学第一周/堆空间使用.o"
+	@echo "... 基础部分/C督学第一周/堆空间使用.i"
+	@echo "... 基础部分/C督学第一周/堆空间使用.s"
+	@echo "... 基础部分/C督学第一周/小写字母转大写字母.o"
+	@echo "... 基础部分/C督学第一周/小写字母转大写字母.i"
+	@echo "... 基础部分/C督学第一周/小写字母转大写字母.s"
+	@echo "... 基础部分/C督学第一周/心.o"
+	@echo "... 基础部分/C督学第一周/心.i"
+	@echo "... 基础部分/C督学第一周/心.s"
+	@echo "... 基础部分/C督学第一周/指针.o"
+	@echo "... 基础部分/C督学第一周/指针.i"
+	@echo "... 基础部分/C督学第一周/指针.s"
+	@echo "... 基础部分/C督学第一周/数组指针和二维数组.o"
+	@echo "... 基础部分/C督学第一周/数组指针和二维数组.i"
+	@echo "... 基础部分/C督学第一周/数组指针和二维数组.s"
+	@echo "... 基础部分/C督学第一周/汉诺塔.o"
+	@echo "... 基础部分/C督学第一周/汉诺塔.i"
+	@echo "... 基础部分/C督学第一周/汉诺塔.s"
+	@echo "... 基础部分/C督学第一周/混合输入test.o"
+	@echo "... 基础部分/C督学第一周/混合输入test.i"
+	@echo "... 基础部分/C督学第一周/混合输入test.s"
+	@echo "... 基础部分/C督学第一周/空心菱形.o"
+	@echo "... 基础部分/C督学第一周/空心菱形.i"
+	@echo "... 基础部分/C督学第一周/空心菱形.s"
+	@echo "... 基础部分/C督学第一周/菱形.o"
+	@echo "... 基础部分/C督学第一周/菱形.i"
+	@echo "... 基础部分/C督学第一周/菱形.s"
+	@echo "... 基础部分/C督学第一周/输出对其格式.o"
+	@echo "... 基础部分/C督学第一周/输出对其格式.i"
+	@echo "... 基础部分/C督学第一周/输出对其格式.s"
+	@echo "... 基础部分/C督学第一周/运算时默认使用int型.o"
+	@echo "... 基础部分/C督学第一周/运算时默认使用int型.i"
+	@echo "... 基础部分/C督学第一周/运算时默认使用int型.s"
+	@echo "... 基础部分/C督学第一周/进制转换.o"
+	@echo "... 基础部分/C督学第一周/进制转换.i"
+	@echo "... 基础部分/C督学第一周/进制转换.s"
+	@echo "... 基础部分/C督学营第三周/二叉树.o"
+	@echo "... 基础部分/C督学营第三周/二叉树.i"
+	@echo "... 基础部分/C督学营第三周/二叉树.s"
+	@echo "... 基础部分/C督学营第三周/循环队列.o"
+	@echo "... 基础部分/C督学营第三周/循环队列.i"
+	@echo "... 基础部分/C督学营第三周/循环队列.s"
+	@echo "... 基础部分/C督学营第三周/栈.o"
+	@echo "... 基础部分/C督学营第三周/栈.i"
+	@echo "... 基础部分/C督学营第三周/栈.s"
+	@echo "... 基础部分/C督学营第二周/Day5作业.o"
+	@echo "... 基础部分/C督学营第二周/Day5作业.i"
+	@echo "... 基础部分/C督学营第二周/Day5作业.s"
+	@echo "... 基础部分/C督学营第二周/实现str函数.o"
+	@echo "... 基础部分/C督学营第二周/实现str函数.i"
+	@echo "... 基础部分/C督学营第二周/实现str函数.s"
+	@echo "... 基础部分/C督学营第二周/结构体指针.o"
+	@echo "... 基础部分/C督学营第二周/结构体指针.i"
+	@echo "... 基础部分/C督学营第二周/结构体指针.s"
+	@echo "... 基础部分/C督学营第二周/计数单词个数和输出单词.o"
+	@echo "... 基础部分/C督学营第二周/计数单词个数和输出单词.i"
+	@echo "... 基础部分/C督学营第二周/计数单词个数和输出单词.s"
+	@echo "... 基础部分/C督学营第二周/递归.o"
+	@echo "... 基础部分/C督学营第二周/递归.i"
+	@echo "... 基础部分/C督学营第二周/递归.s"
+	@echo "... 基础部分/C督学营第二周/链表.o"
+	@echo "... 基础部分/C督学营第二周/链表.i"
+	@echo "... 基础部分/C督学营第二周/链表.s"
+	@echo "... 基础部分/C督学营第二周/链表作业.o"
+	@echo "... 基础部分/C督学营第二周/链表作业.i"
+	@echo "... 基础部分/C督学营第二周/链表作业.s"
+	@echo "... 基础部分/C督学营第四周/zuoye.o"
+	@echo "... 基础部分/C督学营第四周/zuoye.i"
+	@echo "... 基础部分/C督学营第四周/zuoye.s"
+	@echo "... 基础部分/C督学营第四周/作业.o"
+	@echo "... 基础部分/C督学营第四周/作业.i"
+	@echo "... 基础部分/C督学营第四周/作业.s"
+	@echo "... 基础部分/C督学营第四周/插入排序.o"
+	@echo "... 基础部分/C督学营第四周/插入排序.i"
+	@echo "... 基础部分/C督学营第四周/插入排序.s"
 	@echo "... 基础部分/二进制1个数.o"
 	@echo "... 基础部分/二进制1个数.i"
 	@echo "... 基础部分/二进制1个数.s"
@@ -944,9 +1756,6 @@ help:
 	@echo "... 基础部分/思考题/随机数.o"
 	@echo "... 基础部分/思考题/随机数.i"
 	@echo "... 基础部分/思考题/随机数.s"
-	@echo "... 基础部分/指针.o"
-	@echo "... 基础部分/指针.i"
-	@echo "... 基础部分/指针.s"
 	@echo "... 基础部分/输出任意位浮点数.o"
 	@echo "... 基础部分/输出任意位浮点数.i"
 	@echo "... 基础部分/输出任意位浮点数.s"
@@ -968,9 +1777,6 @@ help:
 	@echo "... 编码能力部分/求素数.o"
 	@echo "... 编码能力部分/求素数.i"
 	@echo "... 编码能力部分/求素数.s"
-	@echo "... 编码能力部分/链表.o"
-	@echo "... 编码能力部分/链表.i"
-	@echo "... 编码能力部分/链表.s"
 	@echo "... 编码能力部分/非递归与递归求解斐波那契数列.o"
 	@echo "... 编码能力部分/非递归与递归求解斐波那契数列.i"
 	@echo "... 编码能力部分/非递归与递归求解斐波那契数列.s"

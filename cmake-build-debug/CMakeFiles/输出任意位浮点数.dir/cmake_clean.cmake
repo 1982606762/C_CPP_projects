@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.c.o"
+  "CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.o"
   "输出任意位浮点数"
   "输出任意位浮点数.pdb"
 )

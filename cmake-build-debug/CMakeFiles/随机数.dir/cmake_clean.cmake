@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/随机数.dir/基础部分/思考题/随机数.c.o"
+  "CMakeFiles/随机数.dir/基础部分/思考题/随机数.o"
   "随机数"
   "随机数.pdb"
 )

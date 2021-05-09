@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/快速输出输入int的位数.dir/基础部分/思考题/快速输出输入int的位数.c.o"
+  "CMakeFiles/快速输出输入int的位数.dir/基础部分/思考题/快速输出输入int的位数.o"
   "快速输出输入int的位数"
   "快速输出输入int的位数.pdb"
 )

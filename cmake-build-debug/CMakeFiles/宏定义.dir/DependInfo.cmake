@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/zxl/C:CPP projects/基础部分/思考题/宏定义函数.c" "/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.c.o"
+  "/Users/zxl/C:CPP projects/基础部分/思考题/宏定义函数.c" "/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 

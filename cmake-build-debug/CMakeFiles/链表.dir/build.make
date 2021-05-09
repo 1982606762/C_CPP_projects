@@ -77,27 +77,27 @@ include CMakeFiles/链表.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/链表.dir/flags.make
 
-CMakeFiles/链表.dir/编码能力部分/链表.c.o: CMakeFiles/链表.dir/flags.make
-CMakeFiles/链表.dir/编码能力部分/链表.c.o: ../编码能力部分/链表.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/链表.dir/编码能力部分/链表.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/链表.dir/编码能力部分/链表.c.o   -c "/Users/zxl/C:CPP projects/编码能力部分/链表.c"
+CMakeFiles/链表.dir/基础部分/C督学营第二周/链表.o: CMakeFiles/链表.dir/flags.make
+CMakeFiles/链表.dir/基础部分/C督学营第二周/链表.o: ../基础部分/C督学营第二周/链表.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/链表.dir/基础部分/C督学营第二周/链表.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/链表.dir/基础部分/C督学营第二周/链表.o   -c "/Users/zxl/C:CPP projects/基础部分/C督学营第二周/链表.c"
 
-CMakeFiles/链表.dir/编码能力部分/链表.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/链表.dir/编码能力部分/链表.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/zxl/C:CPP projects/编码能力部分/链表.c" > CMakeFiles/链表.dir/编码能力部分/链表.c.i
+CMakeFiles/链表.dir/基础部分/C督学营第二周/链表.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/链表.dir/基础部分/C督学营第二周/链表.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/zxl/C:CPP projects/基础部分/C督学营第二周/链表.c" > CMakeFiles/链表.dir/基础部分/C督学营第二周/链表.i
 
-CMakeFiles/链表.dir/编码能力部分/链表.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/链表.dir/编码能力部分/链表.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/zxl/C:CPP projects/编码能力部分/链表.c" -o CMakeFiles/链表.dir/编码能力部分/链表.c.s
+CMakeFiles/链表.dir/基础部分/C督学营第二周/链表.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/链表.dir/基础部分/C督学营第二周/链表.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/zxl/C:CPP projects/基础部分/C督学营第二周/链表.c" -o CMakeFiles/链表.dir/基础部分/C督学营第二周/链表.s
 
 # Object files for target 链表
 链表_OBJECTS = \
-"CMakeFiles/链表.dir/编码能力部分/链表.c.o"
+"CMakeFiles/链表.dir/基础部分/C督学营第二周/链表.o"
 
 # External object files for target 链表
 链表_EXTERNAL_OBJECTS =
 
-链表: CMakeFiles/链表.dir/编码能力部分/链表.c.o
+链表: CMakeFiles/链表.dir/基础部分/C督学营第二周/链表.o
 链表: CMakeFiles/链表.dir/build.make
 链表: CMakeFiles/链表.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable 链表"

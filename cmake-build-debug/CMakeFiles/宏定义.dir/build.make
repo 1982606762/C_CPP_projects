@@ -77,27 +77,27 @@ include CMakeFiles/宏定义.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/宏定义.dir/flags.make
 
-CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.c.o: CMakeFiles/宏定义.dir/flags.make
-CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.c.o: ../基础部分/思考题/宏定义函数.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.c.o   -c "/Users/zxl/C:CPP projects/基础部分/思考题/宏定义函数.c"
+CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.o: CMakeFiles/宏定义.dir/flags.make
+CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.o: ../基础部分/思考题/宏定义函数.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.o   -c "/Users/zxl/C:CPP projects/基础部分/思考题/宏定义函数.c"
 
-CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/zxl/C:CPP projects/基础部分/思考题/宏定义函数.c" > CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.c.i
+CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/zxl/C:CPP projects/基础部分/思考题/宏定义函数.c" > CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.i
 
-CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/zxl/C:CPP projects/基础部分/思考题/宏定义函数.c" -o CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.c.s
+CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/zxl/C:CPP projects/基础部分/思考题/宏定义函数.c" -o CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.s
 
 # Object files for target 宏定义
 宏定义_OBJECTS = \
-"CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.c.o"
+"CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.o"
 
 # External object files for target 宏定义
 宏定义_EXTERNAL_OBJECTS =
 
-宏定义: CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.c.o
+宏定义: CMakeFiles/宏定义.dir/基础部分/思考题/宏定义函数.o
 宏定义: CMakeFiles/宏定义.dir/build.make
 宏定义: CMakeFiles/宏定义.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable 宏定义"

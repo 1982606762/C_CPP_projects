@@ -77,27 +77,27 @@ include CMakeFiles/遍历字符数组.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/遍历字符数组.dir/flags.make
 
-CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.c.o: CMakeFiles/遍历字符数组.dir/flags.make
-CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.c.o: ../基础部分/遍历字符数组.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.c.o   -c "/Users/zxl/C:CPP projects/基础部分/遍历字符数组.c"
+CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.o: CMakeFiles/遍历字符数组.dir/flags.make
+CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.o: ../基础部分/遍历字符数组.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.o   -c "/Users/zxl/C:CPP projects/基础部分/遍历字符数组.c"
 
-CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/zxl/C:CPP projects/基础部分/遍历字符数组.c" > CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.c.i
+CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/zxl/C:CPP projects/基础部分/遍历字符数组.c" > CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.i
 
-CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/zxl/C:CPP projects/基础部分/遍历字符数组.c" -o CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.c.s
+CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/zxl/C:CPP projects/基础部分/遍历字符数组.c" -o CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.s
 
 # Object files for target 遍历字符数组
 遍历字符数组_OBJECTS = \
-"CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.c.o"
+"CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.o"
 
 # External object files for target 遍历字符数组
 遍历字符数组_EXTERNAL_OBJECTS =
 
-遍历字符数组: CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.c.o
+遍历字符数组: CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.o
 遍历字符数组: CMakeFiles/遍历字符数组.dir/build.make
 遍历字符数组: CMakeFiles/遍历字符数组.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable 遍历字符数组"

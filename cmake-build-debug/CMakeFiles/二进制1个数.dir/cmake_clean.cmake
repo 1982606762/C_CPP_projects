@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/二进制1个数.dir/基础部分/二进制1个数.c.o"
+  "CMakeFiles/二进制1个数.dir/基础部分/二进制1个数.o"
   "二进制1个数"
   "二进制1个数.pdb"
 )

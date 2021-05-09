@@ -77,27 +77,27 @@ include CMakeFiles/递归.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/递归.dir/flags.make
 
-CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.c.o: CMakeFiles/递归.dir/flags.make
-CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.c.o: ../编码能力部分/非递归与递归求解斐波那契数列.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.c.o   -c "/Users/zxl/C:CPP projects/编码能力部分/非递归与递归求解斐波那契数列.c"
+CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.o: CMakeFiles/递归.dir/flags.make
+CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.o: ../编码能力部分/非递归与递归求解斐波那契数列.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.o   -c "/Users/zxl/C:CPP projects/编码能力部分/非递归与递归求解斐波那契数列.c"
 
-CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/zxl/C:CPP projects/编码能力部分/非递归与递归求解斐波那契数列.c" > CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.c.i
+CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/zxl/C:CPP projects/编码能力部分/非递归与递归求解斐波那契数列.c" > CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.i
 
-CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/zxl/C:CPP projects/编码能力部分/非递归与递归求解斐波那契数列.c" -o CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.c.s
+CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/zxl/C:CPP projects/编码能力部分/非递归与递归求解斐波那契数列.c" -o CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.s
 
 # Object files for target 递归
 递归_OBJECTS = \
-"CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.c.o"
+"CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.o"
 
 # External object files for target 递归
 递归_EXTERNAL_OBJECTS =
 
-递归: CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.c.o
+递归: CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.o
 递归: CMakeFiles/递归.dir/build.make
 递归: CMakeFiles/递归.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable 递归"

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/指针.dir/基础部分/指针.c.o"
+  "CMakeFiles/指针.dir/基础部分/C督学第一周/指针.o"
   "指针"
   "指针.pdb"
 )

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/zxl/C:CPP projects/基础部分/思考题/乘法表.cpp" "/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles/乘法表.dir/基础部分/思考题/乘法表.cpp.o"
+  "/Users/zxl/C:CPP projects/基础部分/思考题/乘法表.cpp" "/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles/乘法表.dir/基础部分/思考题/乘法表.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

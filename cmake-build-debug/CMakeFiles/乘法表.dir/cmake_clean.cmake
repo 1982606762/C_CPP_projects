@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/乘法表.dir/基础部分/思考题/乘法表.cpp.o"
+  "CMakeFiles/乘法表.dir/基础部分/思考题/乘法表.o"
   "乘法表"
   "乘法表.pdb"
 )

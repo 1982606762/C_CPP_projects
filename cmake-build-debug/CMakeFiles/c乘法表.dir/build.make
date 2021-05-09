@@ -77,27 +77,27 @@ include CMakeFiles/c乘法表.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/c乘法表.dir/flags.make
 
-CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.c.o: CMakeFiles/c乘法表.dir/flags.make
-CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.c.o: ../基础部分/思考题/c乘法表.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.c.o   -c "/Users/zxl/C:CPP projects/基础部分/思考题/c乘法表.c"
+CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.o: CMakeFiles/c乘法表.dir/flags.make
+CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.o: ../基础部分/思考题/c乘法表.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.o   -c "/Users/zxl/C:CPP projects/基础部分/思考题/c乘法表.c"
 
-CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/zxl/C:CPP projects/基础部分/思考题/c乘法表.c" > CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.c.i
+CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/zxl/C:CPP projects/基础部分/思考题/c乘法表.c" > CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.i
 
-CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/zxl/C:CPP projects/基础部分/思考题/c乘法表.c" -o CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.c.s
+CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/zxl/C:CPP projects/基础部分/思考题/c乘法表.c" -o CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.s
 
 # Object files for target c乘法表
 c乘法表_OBJECTS = \
-"CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.c.o"
+"CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.o"
 
 # External object files for target c乘法表
 c乘法表_EXTERNAL_OBJECTS =
 
-c乘法表: CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.c.o
+c乘法表: CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.o
 c乘法表: CMakeFiles/c乘法表.dir/build.make
 c乘法表: CMakeFiles/c乘法表.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable c乘法表"

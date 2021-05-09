@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/大数加法.dir/编码能力部分/大数加法.c.o"
+  "CMakeFiles/大数加法.dir/编码能力部分/大数加法.o"
   "大数加法"
   "大数加法.pdb"
 )

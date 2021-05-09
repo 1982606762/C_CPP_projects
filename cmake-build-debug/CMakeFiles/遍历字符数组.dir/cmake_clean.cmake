@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.c.o"
+  "CMakeFiles/遍历字符数组.dir/基础部分/遍历字符数组.o"
   "遍历字符数组"
   "遍历字符数组.pdb"
 )

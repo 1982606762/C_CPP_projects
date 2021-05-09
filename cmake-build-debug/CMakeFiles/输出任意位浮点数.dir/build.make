@@ -77,27 +77,27 @@ include CMakeFiles/输出任意位浮点数.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/输出任意位浮点数.dir/flags.make
 
-CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.c.o: CMakeFiles/输出任意位浮点数.dir/flags.make
-CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.c.o: ../基础部分/输出任意位浮点数.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.c.o   -c "/Users/zxl/C:CPP projects/基础部分/输出任意位浮点数.c"
+CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.o: CMakeFiles/输出任意位浮点数.dir/flags.make
+CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.o: ../基础部分/输出任意位浮点数.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.o   -c "/Users/zxl/C:CPP projects/基础部分/输出任意位浮点数.c"
 
-CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/zxl/C:CPP projects/基础部分/输出任意位浮点数.c" > CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.c.i
+CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/zxl/C:CPP projects/基础部分/输出任意位浮点数.c" > CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.i
 
-CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/zxl/C:CPP projects/基础部分/输出任意位浮点数.c" -o CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.c.s
+CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/zxl/C:CPP projects/基础部分/输出任意位浮点数.c" -o CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.s
 
 # Object files for target 输出任意位浮点数
 输出任意位浮点数_OBJECTS = \
-"CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.c.o"
+"CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.o"
 
 # External object files for target 输出任意位浮点数
 输出任意位浮点数_EXTERNAL_OBJECTS =
 
-输出任意位浮点数: CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.c.o
+输出任意位浮点数: CMakeFiles/输出任意位浮点数.dir/基础部分/输出任意位浮点数.o
 输出任意位浮点数: CMakeFiles/输出任意位浮点数.dir/build.make
 输出任意位浮点数: CMakeFiles/输出任意位浮点数.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable 输出任意位浮点数"

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/因数和.dir/编码能力部分/因数和.c.o"
+  "CMakeFiles/因数和.dir/编码能力部分/因数和.o"
   "因数和"
   "因数和.pdb"
 )

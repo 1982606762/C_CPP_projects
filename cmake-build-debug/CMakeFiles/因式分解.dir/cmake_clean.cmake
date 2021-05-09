@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/因式分解.dir/编码能力部分/因式分解.c.o"
+  "CMakeFiles/因式分解.dir/编码能力部分/因式分解.o"
   "因式分解"
   "因式分解.pdb"
 )

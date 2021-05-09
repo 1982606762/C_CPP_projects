@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/求素数.dir/编码能力部分/求素数.c.o"
+  "CMakeFiles/求素数.dir/编码能力部分/求素数.o"
   "求素数"
   "求素数.pdb"
 )

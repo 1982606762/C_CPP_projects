@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.c.o"
+  "CMakeFiles/c乘法表.dir/基础部分/思考题/c乘法表.o"
   "c乘法表"
   "c乘法表.pdb"
 )
