@@ -52,8 +52,8 @@ void tohex()
     }
 
 }
-
-void dec_to_hex(){
+//十六进制到十进制
+void hex_to_dec(){
     char s[50];
     scanf("%s",s);
     int t=strlen(s);
@@ -67,5 +67,5 @@ void dec_to_hex(){
 }
 
 int main() {
-    dec_to_hex();
+
 }

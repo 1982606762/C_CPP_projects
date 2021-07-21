@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/zxl/C:CPP projects"
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/zxl/学习文件夹/C:CPP projects"
 CMake Warning (dev) in CMakeLists.txt:
   No project() command is present.  The top-level CMakeLists.txt file must
   contain a literal, direct call to the project() command.  Add a line of
@@ -12,6 +12,18 @@ CMake Warning (dev) in CMakeLists.txt:
   line.
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
+-- The C compiler identification is AppleClang 12.0.0.12000032
+-- The CXX compiler identification is AppleClang 12.0.0.12000032
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
 CMake Warning (dev) at CMakeLists.txt:2 (add_executable):
   Policy CMP0037 is not set: Target names should not be reserved and should
   match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
@@ -522,10 +534,87 @@ CMake Warning (dev) at CMakeLists.txt:54 (add_executable):
   undefined behavior.
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
+CMake Warning (dev) at CMakeLists.txt:55 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "实验二" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:62 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "实验" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:65 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "实验一" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:67 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "实验三" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:68 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "Day1作业" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:69 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "Day2作业" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:70 (add_executable):
+  Policy CMP0037 is not set: Target names should not be reserved and should
+  match a validity pattern.  Run "cmake --help-policy CMP0037" for policy
+  details.  Use the cmake_policy command to set the policy and suppress this
+  warning.
+
+  The target name "Day3作业" is reserved or not valid for certain CMake
+  features, such as generator expressions, and may result in undefined
+  behavior.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
 CMake Warning (dev) in CMakeLists.txt:
   No cmake_minimum_required command is present.  A line of code such as
 
-    cmake_minimum_required(VERSION 3.17)
+    cmake_minimum_required(VERSION 3.19)
 
   should be added at the top of the file.  The version specified may be lower
   if you wish to support older CMake versions for this project.  For more
@@ -533,43 +622,17 @@ CMake Warning (dev) in CMakeLists.txt:
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
 -- Configuring done
-CMake Error at CMakeLists.txt:55 (add_executable):
-  Cannot find source file:
-
-    qwe.c
-
-  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
-  .hpp .hxx .in .txx
-
-
-CMake Error at CMakeLists.txt:57 (add_executable):
-  Cannot find source file:
-
-    asasasas.cpp
-
-  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
-  .hpp .hxx .in .txx
-
-
-CMake Error at CMakeLists.txt:56 (add_executable):
-  Cannot find source file:
-
-    qq.cpp
-
-  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
-  .hpp .hxx .in .txx
-
-
-CMake Error at CMakeLists.txt:55 (add_executable):
-  No SOURCES given to target: qwe
-
-
-CMake Error at CMakeLists.txt:57 (add_executable):
-  No SOURCES given to target: asasasas
-
-
-CMake Error at CMakeLists.txt:56 (add_executable):
-  No SOURCES given to target: qq
-
-
+CMake Error: Cannot determine link language for target "queue".
+CMake Error: CMake can not determine linker language for target: queue
+CMake Error: Cannot determine link language for target "stack".
+CMake Error: CMake can not determine linker language for target: stack
+CMake Error: Cannot determine link language for target "链表".
+CMake Error: CMake can not determine linker language for target: 链表
+CMake Error: Cannot determine link language for target "顺序表基本接口".
+CMake Error: CMake can not determine linker language for target: 顺序表基本接口
+-- Generating done
 CMake Generate step failed.  Build files cannot be regenerated correctly.
+Unable to determine product file path for target queue. Running and debugging will be unavailable.
+Unable to determine product file path for target stack. Running and debugging will be unavailable.
+Unable to determine product file path for target 链表. Running and debugging will be unavailable.
+Unable to determine product file path for target 顺序表基本接口. Running and debugging will be unavailable.

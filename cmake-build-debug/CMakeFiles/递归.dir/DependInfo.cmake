@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/zxl/C:CPP projects/编码能力部分/非递归与递归求解斐波那契数列.c" "/Users/zxl/C:CPP projects/cmake-build-debug/CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.o"
+  "/Users/zxl/学习文件夹/C:CPP projects/编码能力部分/非递归与递归求解斐波那契数列.c" "/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CMakeFiles/递归.dir/编码能力部分/非递归与递归求解斐波那契数列.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 
