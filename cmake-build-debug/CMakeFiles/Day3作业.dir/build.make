@@ -76,27 +76,27 @@ include CMakeFiles/Day3作业.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Day3作业.dir/flags.make
 
-CMakeFiles/Day3作业.dir/C语言第七期/Week1/Day3作业.o: CMakeFiles/Day3作业.dir/flags.make
-CMakeFiles/Day3作业.dir/C语言第七期/Week1/Day3作业.o: ../C语言第七期/Week1/Day3作业.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Day3作业.dir/C语言第七期/Week1/Day3作业.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Day3作业.dir/C语言第七期/Week1/Day3作业.o -c "/Users/zxl/学习文件夹/C:CPP projects/C语言第七期/Week1/Day3作业.c"
+CMakeFiles/Day3作业.dir/C语言第七期/作业/Week1/Day3作业.o: CMakeFiles/Day3作业.dir/flags.make
+CMakeFiles/Day3作业.dir/C语言第七期/作业/Week1/Day3作业.o: ../C语言第七期/作业/Week1/Day3作业.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Day3作业.dir/C语言第七期/作业/Week1/Day3作业.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Day3作业.dir/C语言第七期/作业/Week1/Day3作业.o -c "/Users/zxl/学习文件夹/C:CPP projects/C语言第七期/作业/Week1/Day3作业.c"
 
-CMakeFiles/Day3作业.dir/C语言第七期/Week1/Day3作业.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Day3作业.dir/C语言第七期/Week1/Day3作业.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/zxl/学习文件夹/C:CPP projects/C语言第七期/Week1/Day3作业.c" > CMakeFiles/Day3作业.dir/C语言第七期/Week1/Day3作业.i
+CMakeFiles/Day3作业.dir/C语言第七期/作业/Week1/Day3作业.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Day3作业.dir/C语言第七期/作业/Week1/Day3作业.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/zxl/学习文件夹/C:CPP projects/C语言第七期/作业/Week1/Day3作业.c" > CMakeFiles/Day3作业.dir/C语言第七期/作业/Week1/Day3作业.i
 
-CMakeFiles/Day3作业.dir/C语言第七期/Week1/Day3作业.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Day3作业.dir/C语言第七期/Week1/Day3作业.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/zxl/学习文件夹/C:CPP projects/C语言第七期/Week1/Day3作业.c" -o CMakeFiles/Day3作业.dir/C语言第七期/Week1/Day3作业.s
+CMakeFiles/Day3作业.dir/C语言第七期/作业/Week1/Day3作业.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Day3作业.dir/C语言第七期/作业/Week1/Day3作业.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/zxl/学习文件夹/C:CPP projects/C语言第七期/作业/Week1/Day3作业.c" -o CMakeFiles/Day3作业.dir/C语言第七期/作业/Week1/Day3作业.s
 
 # Object files for target Day3作业
 Day3作业_OBJECTS = \
-"CMakeFiles/Day3作业.dir/C语言第七期/Week1/Day3作业.o"
+"CMakeFiles/Day3作业.dir/C语言第七期/作业/Week1/Day3作业.o"
 
 # External object files for target Day3作业
 Day3作业_EXTERNAL_OBJECTS =
 
-Day3作业: CMakeFiles/Day3作业.dir/C语言第七期/Week1/Day3作业.o
+Day3作业: CMakeFiles/Day3作业.dir/C语言第七期/作业/Week1/Day3作业.o
 Day3作业: CMakeFiles/Day3作业.dir/build.make
 Day3作业: CMakeFiles/Day3作业.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Day3作业"

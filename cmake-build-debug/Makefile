@@ -130,6 +130,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Day3作业
+
+# Build rule for target.
+Day3作业: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Day3作业
+.PHONY : Day3作业
+
+# fast build rule for target.
+Day3作业/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day3作业.dir/build.make CMakeFiles/Day3作业.dir/build
+.PHONY : Day3作业/fast
+
+#=============================================================================
+# Target rules for targets named Day2作业
+
+# Build rule for target.
+Day2作业: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Day2作业
+.PHONY : Day2作业
+
+# fast build rule for target.
+Day2作业/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day2作业.dir/build.make CMakeFiles/Day2作业.dir/build
+.PHONY : Day2作业/fast
+
+#=============================================================================
 # Target rules for targets named Day1作业
 
 # Build rule for target.
@@ -157,6 +183,36 @@ C语言第七期/作业/Week1/Day1作业.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1作业.dir/build.make CMakeFiles/Day1作业.dir/C语言第七期/作业/Week1/Day1作业.s
 .PHONY : C语言第七期/作业/Week1/Day1作业.s
 
+# target to build an object file
+C语言第七期/作业/Week1/Day2作业.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day2作业.dir/build.make CMakeFiles/Day2作业.dir/C语言第七期/作业/Week1/Day2作业.o
+.PHONY : C语言第七期/作业/Week1/Day2作业.o
+
+# target to preprocess a source file
+C语言第七期/作业/Week1/Day2作业.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day2作业.dir/build.make CMakeFiles/Day2作业.dir/C语言第七期/作业/Week1/Day2作业.i
+.PHONY : C语言第七期/作业/Week1/Day2作业.i
+
+# target to generate assembly for a file
+C语言第七期/作业/Week1/Day2作业.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day2作业.dir/build.make CMakeFiles/Day2作业.dir/C语言第七期/作业/Week1/Day2作业.s
+.PHONY : C语言第七期/作业/Week1/Day2作业.s
+
+# target to build an object file
+C语言第七期/作业/Week1/Day3作业.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day3作业.dir/build.make CMakeFiles/Day3作业.dir/C语言第七期/作业/Week1/Day3作业.o
+.PHONY : C语言第七期/作业/Week1/Day3作业.o
+
+# target to preprocess a source file
+C语言第七期/作业/Week1/Day3作业.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day3作业.dir/build.make CMakeFiles/Day3作业.dir/C语言第七期/作业/Week1/Day3作业.i
+.PHONY : C语言第七期/作业/Week1/Day3作业.i
+
+# target to generate assembly for a file
+C语言第七期/作业/Week1/Day3作业.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day3作业.dir/build.make CMakeFiles/Day3作业.dir/C语言第七期/作业/Week1/Day3作业.s
+.PHONY : C语言第七期/作业/Week1/Day3作业.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -166,9 +222,17 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Day1作业"
+	@echo "... Day2作业"
+	@echo "... Day3作业"
 	@echo "... C语言第七期/作业/Week1/Day1作业.o"
 	@echo "... C语言第七期/作业/Week1/Day1作业.i"
 	@echo "... C语言第七期/作业/Week1/Day1作业.s"
+	@echo "... C语言第七期/作业/Week1/Day2作业.o"
+	@echo "... C语言第七期/作业/Week1/Day2作业.i"
+	@echo "... C语言第七期/作业/Week1/Day2作业.s"
+	@echo "... C语言第七期/作业/Week1/Day3作业.o"
+	@echo "... C语言第七期/作业/Week1/Day3作业.i"
+	@echo "... C语言第七期/作业/Week1/Day3作业.s"
 .PHONY : help
 
 

@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/zxl/学习文件夹/C:CPP projects/C语言第七期/作业/Week1/Day3作业.c
+/Users/zxl/学习文件夹/C:CPP projects/C语言第七期/作业/Week1/Day2作业.c
 stdio.h
+-
+string.h
+-
+math.h
 -
 
