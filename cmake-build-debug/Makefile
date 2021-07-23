@@ -58,10 +58,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = "/Users/zxl/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
+RM = "/Users/zxl/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = "/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug"
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"/Users/zxl/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -89,7 +89,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/zxl/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -130,30 +130,43 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Day3作业
+# Target rules for targets named 二叉搜索树后序遍历
 
 # Build rule for target.
-Day3作业: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Day3作业
-.PHONY : Day3作业
+二叉搜索树后序遍历: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二叉搜索树后序遍历
+.PHONY : 二叉搜索树后序遍历
 
 # fast build rule for target.
-Day3作业/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day3作业.dir/build.make CMakeFiles/Day3作业.dir/build
-.PHONY : Day3作业/fast
+二叉搜索树后序遍历/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/二叉搜索树后序遍历.dir/build.make CMakeFiles/二叉搜索树后序遍历.dir/build
+.PHONY : 二叉搜索树后序遍历/fast
 
 #=============================================================================
-# Target rules for targets named Day2作业
+# Target rules for targets named 结构体指针
 
 # Build rule for target.
-Day2作业: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Day2作业
-.PHONY : Day2作业
+结构体指针: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 结构体指针
+.PHONY : 结构体指针
 
 # fast build rule for target.
-Day2作业/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day2作业.dir/build.make CMakeFiles/Day2作业.dir/build
-.PHONY : Day2作业/fast
+结构体指针/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/结构体指针.dir/build.make CMakeFiles/结构体指针.dir/build
+.PHONY : 结构体指针/fast
+
+#=============================================================================
+# Target rules for targets named CopyComplexList
+
+# Build rule for target.
+CopyComplexList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CopyComplexList
+.PHONY : CopyComplexList
+
+# fast build rule for target.
+CopyComplexList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CopyComplexList.dir/build.make CMakeFiles/CopyComplexList.dir/build
+.PHONY : CopyComplexList/fast
 
 #=============================================================================
 # Target rules for targets named Day1作业
@@ -167,6 +180,45 @@ Day1作业: cmake_check_build_system
 Day1作业/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day1作业.dir/build.make CMakeFiles/Day1作业.dir/build
 .PHONY : Day1作业/fast
+
+#=============================================================================
+# Target rules for targets named Day3作业
+
+# Build rule for target.
+Day3作业: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Day3作业
+.PHONY : Day3作业
+
+# fast build rule for target.
+Day3作业/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day3作业.dir/build.make CMakeFiles/Day3作业.dir/build
+.PHONY : Day3作业/fast
+
+#=============================================================================
+# Target rules for targets named 树的子结构
+
+# Build rule for target.
+树的子结构: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 树的子结构
+.PHONY : 树的子结构
+
+# fast build rule for target.
+树的子结构/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/树的子结构.dir/build.make CMakeFiles/树的子结构.dir/build
+.PHONY : 树的子结构/fast
+
+#=============================================================================
+# Target rules for targets named Day2作业
+
+# Build rule for target.
+Day2作业: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Day2作业
+.PHONY : Day2作业
+
+# fast build rule for target.
+Day2作业/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day2作业.dir/build.make CMakeFiles/Day2作业.dir/build
+.PHONY : Day2作业/fast
 
 # target to build an object file
 C语言第七期/作业/Week1/Day1作业.o:
@@ -213,6 +265,66 @@ C语言第七期/作业/Week1/Day3作业.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Day3作业.dir/build.make CMakeFiles/Day3作业.dir/C语言第七期/作业/Week1/Day3作业.s
 .PHONY : C语言第七期/作业/Week1/Day3作业.s
 
+# target to build an object file
+基础部分/C督学营第二周/结构体指针.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/结构体指针.dir/build.make CMakeFiles/结构体指针.dir/基础部分/C督学营第二周/结构体指针.o
+.PHONY : 基础部分/C督学营第二周/结构体指针.o
+
+# target to preprocess a source file
+基础部分/C督学营第二周/结构体指针.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/结构体指针.dir/build.make CMakeFiles/结构体指针.dir/基础部分/C督学营第二周/结构体指针.i
+.PHONY : 基础部分/C督学营第二周/结构体指针.i
+
+# target to generate assembly for a file
+基础部分/C督学营第二周/结构体指针.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/结构体指针.dir/build.make CMakeFiles/结构体指针.dir/基础部分/C督学营第二周/结构体指针.s
+.PHONY : 基础部分/C督学营第二周/结构体指针.s
+
+# target to build an object file
+编码能力部分/二叉搜索树后序遍历.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/二叉搜索树后序遍历.dir/build.make CMakeFiles/二叉搜索树后序遍历.dir/编码能力部分/二叉搜索树后序遍历.o
+.PHONY : 编码能力部分/二叉搜索树后序遍历.o
+
+# target to preprocess a source file
+编码能力部分/二叉搜索树后序遍历.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/二叉搜索树后序遍历.dir/build.make CMakeFiles/二叉搜索树后序遍历.dir/编码能力部分/二叉搜索树后序遍历.i
+.PHONY : 编码能力部分/二叉搜索树后序遍历.i
+
+# target to generate assembly for a file
+编码能力部分/二叉搜索树后序遍历.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/二叉搜索树后序遍历.dir/build.make CMakeFiles/二叉搜索树后序遍历.dir/编码能力部分/二叉搜索树后序遍历.s
+.PHONY : 编码能力部分/二叉搜索树后序遍历.s
+
+# target to build an object file
+编码能力部分/复杂链表的复制/CopyComplexList.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CopyComplexList.dir/build.make CMakeFiles/CopyComplexList.dir/编码能力部分/复杂链表的复制/CopyComplexList.o
+.PHONY : 编码能力部分/复杂链表的复制/CopyComplexList.o
+
+# target to preprocess a source file
+编码能力部分/复杂链表的复制/CopyComplexList.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CopyComplexList.dir/build.make CMakeFiles/CopyComplexList.dir/编码能力部分/复杂链表的复制/CopyComplexList.i
+.PHONY : 编码能力部分/复杂链表的复制/CopyComplexList.i
+
+# target to generate assembly for a file
+编码能力部分/复杂链表的复制/CopyComplexList.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CopyComplexList.dir/build.make CMakeFiles/CopyComplexList.dir/编码能力部分/复杂链表的复制/CopyComplexList.s
+.PHONY : 编码能力部分/复杂链表的复制/CopyComplexList.s
+
+# target to build an object file
+编码能力部分/树的子结构.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/树的子结构.dir/build.make CMakeFiles/树的子结构.dir/编码能力部分/树的子结构.o
+.PHONY : 编码能力部分/树的子结构.o
+
+# target to preprocess a source file
+编码能力部分/树的子结构.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/树的子结构.dir/build.make CMakeFiles/树的子结构.dir/编码能力部分/树的子结构.i
+.PHONY : 编码能力部分/树的子结构.i
+
+# target to generate assembly for a file
+编码能力部分/树的子结构.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/树的子结构.dir/build.make CMakeFiles/树的子结构.dir/编码能力部分/树的子结构.s
+.PHONY : 编码能力部分/树的子结构.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -221,9 +333,13 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... CopyComplexList"
 	@echo "... Day1作业"
 	@echo "... Day2作业"
 	@echo "... Day3作业"
+	@echo "... 二叉搜索树后序遍历"
+	@echo "... 树的子结构"
+	@echo "... 结构体指针"
 	@echo "... C语言第七期/作业/Week1/Day1作业.o"
 	@echo "... C语言第七期/作业/Week1/Day1作业.i"
 	@echo "... C语言第七期/作业/Week1/Day1作业.s"
@@ -233,6 +349,18 @@ help:
 	@echo "... C语言第七期/作业/Week1/Day3作业.o"
 	@echo "... C语言第七期/作业/Week1/Day3作业.i"
 	@echo "... C语言第七期/作业/Week1/Day3作业.s"
+	@echo "... 基础部分/C督学营第二周/结构体指针.o"
+	@echo "... 基础部分/C督学营第二周/结构体指针.i"
+	@echo "... 基础部分/C督学营第二周/结构体指针.s"
+	@echo "... 编码能力部分/二叉搜索树后序遍历.o"
+	@echo "... 编码能力部分/二叉搜索树后序遍历.i"
+	@echo "... 编码能力部分/二叉搜索树后序遍历.s"
+	@echo "... 编码能力部分/复杂链表的复制/CopyComplexList.o"
+	@echo "... 编码能力部分/复杂链表的复制/CopyComplexList.i"
+	@echo "... 编码能力部分/复杂链表的复制/CopyComplexList.s"
+	@echo "... 编码能力部分/树的子结构.o"
+	@echo "... 编码能力部分/树的子结构.i"
+	@echo "... 编码能力部分/树的子结构.s"
 .PHONY : help
 
 

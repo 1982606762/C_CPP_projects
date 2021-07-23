@@ -37,8 +37,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Day3作业">
-				<Option output="/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/Day3作业" prefix_auto="0" extension_auto="0"/>
+			<Target title="二叉搜索树后序遍历">
+				<Option output="/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/二叉搜索树后序遍历" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -52,14 +52,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 Day3作业"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 二叉搜索树后序遍历"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Day3作业/fast">
-				<Option output="/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/Day3作业" prefix_auto="0" extension_auto="0"/>
+			<Target title="二叉搜索树后序遍历/fast">
+				<Option output="/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/二叉搜索树后序遍历" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -73,14 +73,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 Day3作业/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 二叉搜索树后序遍历/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Day2作业">
-				<Option output="/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/Day2作业" prefix_auto="0" extension_auto="0"/>
+			<Target title="结构体指针">
+				<Option output="/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/结构体指针" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -94,14 +94,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 Day2作业"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 结构体指针"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Day2作业/fast">
-				<Option output="/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/Day2作业" prefix_auto="0" extension_auto="0"/>
+			<Target title="结构体指针/fast">
+				<Option output="/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/结构体指针" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=""/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -115,7 +115,49 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 Day2作业/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 结构体指针/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CopyComplexList">
+				<Option output="/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CopyComplexList" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 CopyComplexList"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CopyComplexList/fast">
+				<Option output="/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CopyComplexList" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 CopyComplexList/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -163,6 +205,132 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Day3作业">
+				<Option output="/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/Day3作业" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 Day3作业"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Day3作业/fast">
+				<Option output="/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/Day3作业" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 Day3作业/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="树的子结构">
+				<Option output="/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/树的子结构" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 树的子结构"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="树的子结构/fast">
+				<Option output="/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/树的子结构" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 树的子结构/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Day2作业">
+				<Option output="/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/Day2作业" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 Day2作业"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Day2作业/fast">
+				<Option output="/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/Day2作业" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 Day2作业/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/zxl/学习文件夹/C:CPP\ projects/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/Users/zxl/学习文件夹/C:CPP projects/C语言第七期/作业/Week1/Day1作业.c">
 			<Option target="Day1作业"/>
@@ -172,6 +340,18 @@
 		</Unit>
 		<Unit filename="/Users/zxl/学习文件夹/C:CPP projects/C语言第七期/作业/Week1/Day3作业.c">
 			<Option target="Day3作业"/>
+		</Unit>
+		<Unit filename="/Users/zxl/学习文件夹/C:CPP projects/基础部分/C督学营第二周/结构体指针.c">
+			<Option target="结构体指针"/>
+		</Unit>
+		<Unit filename="/Users/zxl/学习文件夹/C:CPP projects/编码能力部分/二叉搜索树后序遍历.cpp">
+			<Option target="二叉搜索树后序遍历"/>
+		</Unit>
+		<Unit filename="/Users/zxl/学习文件夹/C:CPP projects/编码能力部分/复杂链表的复制/CopyComplexList.cpp">
+			<Option target="CopyComplexList"/>
+		</Unit>
+		<Unit filename="/Users/zxl/学习文件夹/C:CPP projects/编码能力部分/树的子结构.cpp">
+			<Option target="树的子结构"/>
 		</Unit>
 		<Unit filename="/Users/zxl/学习文件夹/C:CPP projects/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

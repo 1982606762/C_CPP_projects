@@ -1,5 +1,9 @@
 /Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CMakeFiles/Day3作业.dir
-/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CMakeFiles/Day2作业.dir
+/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CMakeFiles/二叉搜索树后序遍历.dir
+/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CMakeFiles/结构体指针.dir
+/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CMakeFiles/CopyComplexList.dir
 /Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CMakeFiles/Day1作业.dir
+/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CMakeFiles/Day3作业.dir
+/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CMakeFiles/树的子结构.dir
+/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CMakeFiles/Day2作业.dir
