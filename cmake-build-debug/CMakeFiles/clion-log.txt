@@ -1,4 +1,4 @@
-"/Users/zxl/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/Users/zxl/学习文件夹/C:CPP projects"
+"/Users/zxl/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/212.4746.93/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" "/Users/zxl/学习文件夹/C:CPP projects"
 CMake Warning (dev) in CMakeLists.txt:
   No project() command is present.  The top-level CMakeLists.txt file must
   contain a literal, direct call to the project() command.  Add a line of
@@ -79,5 +79,7 @@ CMake Warning (dev) at CMakeLists.txt:7 (add_executable):
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
 -- Configuring done
+CMake Error: Cannot determine link language for target "Stack".
+CMake Error: CMake can not determine linker language for target: Stack
 -- Generating done
--- Build files have been written to: /Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug
+CMake Generate step failed.  Build files cannot be regenerated correctly.

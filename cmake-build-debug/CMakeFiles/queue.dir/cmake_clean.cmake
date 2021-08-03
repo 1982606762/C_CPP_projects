@@ -1,5 +1,10 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/Queue.dir/数据结构/循环队列/Queue.o"
+  "Queue"
+  "Queue.pdb"
+)
 
 # Per-language clean rules from dependency scanning.
-foreach(lang )
-  include(CMakeFiles/queue.dir/cmake_clean_${lang}.cmake OPTIONAL)
+foreach(lang C)
+  include(CMakeFiles/Queue.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()
