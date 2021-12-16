@@ -53,10 +53,10 @@ RM = "/Users/zxl/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/2
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/zxl/学习文件夹/C:CPP projects"
+CMAKE_SOURCE_DIR = "/Users/zxl/study/C:CPP projects"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/zxl/study/C:CPP projects/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Stack.dir/depend.make
@@ -71,6 +71,6 @@ CMakeFiles/Stack.dir/clean:
 .PHONY : CMakeFiles/Stack.dir/clean
 
 CMakeFiles/Stack.dir/depend:
-	cd "/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/zxl/学习文件夹/C:CPP projects" "/Users/zxl/学习文件夹/C:CPP projects" "/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug" "/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug" "/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CMakeFiles/Stack.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/zxl/study/C:CPP projects/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/zxl/study/C:CPP projects" "/Users/zxl/study/C:CPP projects" "/Users/zxl/study/C:CPP projects/cmake-build-debug" "/Users/zxl/study/C:CPP projects/cmake-build-debug" "/Users/zxl/study/C:CPP projects/cmake-build-debug/CMakeFiles/Stack.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Stack.dir/depend
 

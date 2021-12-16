@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/zxl/学习文件夹/C:CPP projects/编码能力部分/复杂链表的复制/CopyComplexList.cpp" "/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CMakeFiles/CopyComplexList.dir/编码能力部分/复杂链表的复制/CopyComplexList.o"
+  "/Users/zxl/study/C:CPP projects/编码能力部分/复杂链表的复制/CopyComplexList.cpp" "/Users/zxl/study/C:CPP projects/cmake-build-debug/CMakeFiles/CopyComplexList.dir/编码能力部分/复杂链表的复制/CopyComplexList.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

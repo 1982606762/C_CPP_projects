@@ -1,15 +1,23 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "C"
+  "CXX"
   )
 # The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_C
-  "/Users/zxl/学习文件夹/C:CPP projects/编译原理/test1.c" "/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CMakeFiles/test1.dir/编译原理/test1.o"
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/zxl/study/C:CPP projects/杂/test1.cpp" "/Users/zxl/study/C:CPP projects/cmake-build-debug/CMakeFiles/test1.dir/杂/test1.cpp.o"
   )
-set(CMAKE_C_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
   )
 
 # Targets to which this target links.

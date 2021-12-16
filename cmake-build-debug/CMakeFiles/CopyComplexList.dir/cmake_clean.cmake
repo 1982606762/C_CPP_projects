@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CopyComplexList.dir/编码能力部分/复杂链表的复制/CopyComplexList.o"
+  "CMakeFiles/CopyComplexList.dir/编码能力部分/复杂链表的复制/CopyComplexList.cpp.o"
   "CopyComplexList"
   "CopyComplexList.pdb"
 )

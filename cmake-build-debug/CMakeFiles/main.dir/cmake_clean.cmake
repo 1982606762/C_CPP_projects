@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/编译原理/part1/main.o"
+  "CMakeFiles/main.dir/杂/main.cpp.o"
   "main"
   "main.pdb"
 )

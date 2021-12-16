@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/树的子结构.dir/编码能力部分/树的子结构.o"
+  "CMakeFiles/树的子结构.dir/编码能力部分/树的子结构.cpp.o"
   "树的子结构"
   "树的子结构.pdb"
 )

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/zxl/学习文件夹/C:CPP projects/数据结构/循环队列/Queue.c" "/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CMakeFiles/Queue.dir/数据结构/循环队列/Queue.o"
+  "/Users/zxl/study/C:CPP projects/数据结构/循环队列/Queue.c" "/Users/zxl/study/C:CPP projects/cmake-build-debug/CMakeFiles/Queue.dir/数据结构/循环队列/Queue.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 

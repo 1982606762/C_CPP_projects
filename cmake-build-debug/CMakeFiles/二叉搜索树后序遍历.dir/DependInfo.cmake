@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/zxl/学习文件夹/C:CPP projects/编码能力部分/二叉搜索树后序遍历.cpp" "/Users/zxl/学习文件夹/C:CPP projects/cmake-build-debug/CMakeFiles/二叉搜索树后序遍历.dir/编码能力部分/二叉搜索树后序遍历.o"
+  "/Users/zxl/study/C:CPP projects/编码能力部分/二叉搜索树后序遍历.cpp" "/Users/zxl/study/C:CPP projects/cmake-build-debug/CMakeFiles/二叉搜索树后序遍历.dir/编码能力部分/二叉搜索树后序遍历.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

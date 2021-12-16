@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Day1作业.dir/C语言第七期/作业/Week1/Day1作业.o"
+  "CMakeFiles/Day1作业.dir/C语言第七期/作业/Week1/Day1作业.c.o"
   "Day1作业"
   "Day1作业.pdb"
 )

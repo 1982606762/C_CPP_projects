@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Queue.dir/数据结构/循环队列/Queue.o"
+  "CMakeFiles/Queue.dir/数据结构/循环队列/Queue.c.o"
   "Queue"
   "Queue.pdb"
 )
