@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 汉诺塔
+
+# Build rule for target.
+汉诺塔: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 汉诺塔
+.PHONY : 汉诺塔
+
+# fast build rule for target.
+汉诺塔/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/汉诺塔.dir/build.make CMakeFiles/汉诺塔.dir/build
+.PHONY : 汉诺塔/fast
+
+#=============================================================================
 # Target rules for targets named main2
 
 # Build rule for target.
@@ -128,43 +141,6 @@ main2: cmake_check_build_system
 main2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/build
 .PHONY : main2/fast
-
-#=============================================================================
-# Target rules for targets named main
-
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 main
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-杂/main.o: 杂/main.cpp.o
-.PHONY : 杂/main.o
-
-# target to build an object file
-杂/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/杂/main.cpp.o
-.PHONY : 杂/main.cpp.o
-
-杂/main.i: 杂/main.cpp.i
-.PHONY : 杂/main.i
-
-# target to preprocess a source file
-杂/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/杂/main.cpp.i
-.PHONY : 杂/main.cpp.i
-
-杂/main.s: 杂/main.cpp.s
-.PHONY : 杂/main.s
-
-# target to generate assembly for a file
-杂/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/杂/main.cpp.s
-.PHONY : 杂/main.cpp.s
 
 杂/main2.o: 杂/main2.cpp.o
 .PHONY : 杂/main2.o
@@ -190,6 +166,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/杂/main2.cpp.s
 .PHONY : 杂/main2.cpp.s
 
+杂/汉诺塔.o: 杂/汉诺塔.cpp.o
+.PHONY : 杂/汉诺塔.o
+
+# target to build an object file
+杂/汉诺塔.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/汉诺塔.dir/build.make CMakeFiles/汉诺塔.dir/杂/汉诺塔.cpp.o
+.PHONY : 杂/汉诺塔.cpp.o
+
+杂/汉诺塔.i: 杂/汉诺塔.cpp.i
+.PHONY : 杂/汉诺塔.i
+
+# target to preprocess a source file
+杂/汉诺塔.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/汉诺塔.dir/build.make CMakeFiles/汉诺塔.dir/杂/汉诺塔.cpp.i
+.PHONY : 杂/汉诺塔.cpp.i
+
+杂/汉诺塔.s: 杂/汉诺塔.cpp.s
+.PHONY : 杂/汉诺塔.s
+
+# target to generate assembly for a file
+杂/汉诺塔.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/汉诺塔.dir/build.make CMakeFiles/汉诺塔.dir/杂/汉诺塔.cpp.s
+.PHONY : 杂/汉诺塔.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -198,14 +198,14 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... main"
 	@echo "... main2"
-	@echo "... 杂/main.o"
-	@echo "... 杂/main.i"
-	@echo "... 杂/main.s"
+	@echo "... 汉诺塔"
 	@echo "... 杂/main2.o"
 	@echo "... 杂/main2.i"
 	@echo "... 杂/main2.s"
+	@echo "... 杂/汉诺塔.o"
+	@echo "... 杂/汉诺塔.i"
+	@echo "... 杂/汉诺塔.s"
 .PHONY : help
 
 

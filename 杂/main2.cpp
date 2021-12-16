@@ -64,6 +64,7 @@ int main(){
     return 0;
 }
 
+//初始化城市图
 void createGraph(Graph &G)
 {
     int list[CITY_NUM][CITY_NUM] = {0};
@@ -106,6 +107,7 @@ void createGraph(Graph &G)
     }
 }
 
+//生成初始种群
 void initGroup(Graph G)
 {
     double total_length = 0.0;
@@ -131,22 +133,7 @@ void initGroup(Graph G)
     calcProbability(total_length);
 }
 
-void calcProbability(double total_length)
-{
-    double TempTotal_P = 0.0;
-
-    for (auto & TSP_Group : Current_Group)
-    {
-        TSP_Group.Reproduction = (1.0 / TSP_Group.length) * total_length;
-        TempTotal_P += TSP_Group.Reproduction;
-    }
-
-    for (auto & TSP_Group : Current_Group)
-    {
-        TSP_Group.Reproduction = TSP_Group.Reproduction / TempTotal_P;
-    }
-}
-
+//进行遗传算法
 void doEvolution(Graph G)
 {
     while (iter < Iteration_Num)
@@ -173,6 +160,7 @@ void doEvolution(Graph G)
                 M--;
             }
         }
+
         double total_length = 0.0;
         for (int IndexVariation = 0; IndexVariation < Length_SonSolution; IndexVariation++)
         {
@@ -196,6 +184,7 @@ void doEvolution(Graph G)
     }
 }
 
+//选择杂交对象
 int selectHybridizedObject()
 {
     double selection_P = ((rand() % 100 + 0.0) / 100);
@@ -211,6 +200,7 @@ int selectHybridizedObject()
     return 0;
 }
 
+//进行繁殖
 void doHybridization(Graph G, Solution TSP_Father, Solution TSP_Mother)
 {
     Index_Hybridization_x = rand() % (CITY_NUM - 1) + 1;
@@ -248,6 +238,70 @@ void doHybridization(Graph G, Solution TSP_Father, Solution TSP_Mother)
     Children_Group[Length_SonSolution++] = Descendant_TWO;
 }
 
+//进行个体变异
+void Variation(int Index_Variation)
+{
+    int City_i = (rand() % (CITY_NUM - 1)) + 1;
+    int City_j = (rand() % (CITY_NUM - 1)) + 1;
+
+    while (City_i == City_j)
+    {
+        City_j = (rand() % (CITY_NUM - 1)) + 1;
+    }
+
+    int temp_City = Children_Group[Index_Variation].path[City_i];
+    Children_Group[Index_Variation].path[City_i] = Children_Group[Index_Variation].path[City_j];
+    Children_Group[Index_Variation].path[City_j] = temp_City;
+}
+
+//更新种群
+void updateGroup(Graph G)
+{
+    Solution tempSolution;
+    for (int i = 0; i < Length_SonSolution; i++)
+    {
+        for (int j = Length_SonSolution - 1; j > i; j--)
+        {
+            if (Children_Group[i].length > Children_Group[j].length)
+            {
+                tempSolution = Children_Group[i];
+                Children_Group[i] = Children_Group[j];
+                Children_Group[j] = tempSolution;
+            }
+        }
+    }
+    for (int i = 0; i < Length_SonSolution; i++)
+    {
+        for (auto & TSP_Group : Current_Group)
+        {
+            if (Children_Group[i].length < TSP_Group.length)
+            {
+                TSP_Group = Children_Group[i];
+                break;
+            }
+        }
+    }
+    Evaluation(G);
+}
+
+//计算优先级
+void calcProbability(double total_length)
+{
+    double TempTotal_P = 0.0;
+
+    for (auto & TSP_Group : Current_Group)
+    {
+        TSP_Group.Reproduction = (1.0 / TSP_Group.length) * total_length;
+        TempTotal_P += TSP_Group.Reproduction;
+    }
+
+    for (auto & TSP_Group : Current_Group)
+    {
+        TSP_Group.Reproduction = TSP_Group.Reproduction / TempTotal_P;
+    }
+}
+
+//处理冲突
 Solution handleConflict(Graph G, Solution ConflictSolution, const int *Detection_Conflict, const int *Model_Conflict, int Length_Conflict)
 {
     for (int i = 0; i <= Length_Conflict; i++)
@@ -277,6 +331,31 @@ Solution handleConflict(Graph G, Solution ConflictSolution, const int *Detection
     return ConflictSolution;
 }
 
+//评价函数
+void Evaluation(Graph G)
+{
+    Solution bestSolution;
+    bestSolution = Current_Group[0];
+    for (int i = 1; i < GROUP_NUM; i++)
+    {
+        if (bestSolution.length > Current_Group[i].length)
+        {
+            bestSolution = Current_Group[i];
+        }
+    }
+    if (bestSolution.length < Current_Length)
+    {
+        Current_Length = bestSolution.length;
+        cout << "***********************The iteration No." << (iter + 1) << " *************************" << endl;
+        cout << "Current bestSolution : \n";
+        for (int i = 0; i < G.vex_num; i++)
+        {
+            cout << bestSolution.path[i] << " -> ";
+        }
+        cout << bestSolution.path[0] << "    \nlength = " << bestSolution.length << endl;
+    }
+}
+
 int *getConflict(const int Detection_Hybridization[], const int Model_Hybridization[], int Length_Hybridization, int &Length_Conflict)
 {
     int *Conflict = new int[CITY_NUM];
@@ -301,49 +380,7 @@ int *getConflict(const int Detection_Hybridization[], const int Model_Hybridizat
     return Conflict;
 }
 
-void Variation(int Index_Variation)
-{
-    int City_i = (rand() % (CITY_NUM - 1)) + 1;
-    int City_j = (rand() % (CITY_NUM - 1)) + 1;
 
-    while (City_i == City_j)
-    {
-        City_j = (rand() % (CITY_NUM - 1)) + 1;
-    }
-
-    int temp_City = Children_Group[Index_Variation].path[City_i];
-    Children_Group[Index_Variation].path[City_i] = Children_Group[Index_Variation].path[City_j];
-    Children_Group[Index_Variation].path[City_j] = temp_City;
-}
-
-void updateGroup(Graph G)
-{
-    Solution tempSolution;
-    for (int i = 0; i < Length_SonSolution; i++)
-    {
-        for (int j = Length_SonSolution - 1; j > i; j--)
-        {
-            if (Children_Group[i].length > Children_Group[j].length)
-            {
-                tempSolution = Children_Group[i];
-                Children_Group[i] = Children_Group[j];
-                Children_Group[j] = tempSolution;
-            }
-        }
-    }
-    for (int i = 0; i < Length_SonSolution; i++)
-    {
-        for (auto & TSP_Group : Current_Group)
-        {
-            if (Children_Group[i].length < TSP_Group.length)
-            {
-                TSP_Group = Children_Group[i];
-                break;
-            }
-        }
-    }
-    Evaluation(G);
-}
 
 double calculateLength(Graph G, Solution newSolution)
 {
@@ -387,28 +424,4 @@ bool checkPath(Graph G, Solution CurrentSolution)
         }
     }
     return true;
-}
-
-void Evaluation(Graph G)
-{
-    Solution bestSolution;
-    bestSolution = Current_Group[0];
-    for (int i = 1; i < GROUP_NUM; i++)
-    {
-        if (bestSolution.length > Current_Group[i].length)
-        {
-            bestSolution = Current_Group[i];
-        }
-    }
-    if (bestSolution.length < Current_Length)
-    {
-        Current_Length = bestSolution.length;
-        cout << "***********************The iteration No." << (iter + 1) << " *************************" << endl;
-        cout << "Current bestSolution : \n";
-        for (int i = 0; i < G.vex_num; i++)
-        {
-            cout << bestSolution.path[i] << " -> ";
-        }
-        cout << bestSolution.path[0] << "    \nlength = " << bestSolution.length << endl;
-    }
 }
