@@ -1,4 +1,11 @@
-/Users/zxl/study/C:CPP projects/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /Users/zxl/study/C:CPP projects/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zxl/study/C:CPP projects/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zxl/study/C:CPP projects/cmake-build-debug/CMakeFiles/vector.dir
+/Users/zxl/study/C:CPP projects/cmake-build-debug/CMakeFiles/string.dir
+/Users/zxl/study/C:CPP projects/cmake-build-debug/CMakeFiles/读取数量不定的输入.dir
+/Users/zxl/study/C:CPP projects/cmake-build-debug/CMakeFiles/clangtest.dir
+/Users/zxl/study/C:CPP projects/cmake-build-debug/CMakeFiles/hello.dir
+/Users/zxl/study/C:CPP projects/cmake-build-debug/CMakeFiles/vector练习.dir
 /Users/zxl/study/C:CPP projects/cmake-build-debug/CMakeFiles/汉诺塔.dir
+/Users/zxl/study/C:CPP projects/cmake-build-debug/CMakeFiles/while.dir
 /Users/zxl/study/C:CPP projects/cmake-build-debug/CMakeFiles/main2.dir

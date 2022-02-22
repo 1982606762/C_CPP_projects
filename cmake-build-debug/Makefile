@@ -48,10 +48,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/Users/zxl/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/CLion.app/Contents/bin/cmake/mac/bin/cmake"
+CMAKE_COMMAND = "/Users/zxl/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/CLion.app/Contents/bin/cmake/mac/bin/cmake"
 
 # The command to remove a file.
-RM = "/Users/zxl/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
+RM = "/Users/zxl/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -65,25 +65,25 @@ CMAKE_BINARY_DIR = "/Users/zxl/study/C:CPP projects/cmake-build-debug"
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/Users/zxl/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/Users/zxl/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.5744.254/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	"/Users/zxl/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
 edit_cache/fast: edit_cache
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"/Users/zxl/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/213.6777.58/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -117,6 +117,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named vector
+
+# Build rule for target.
+vector: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vector
+.PHONY : vector
+
+# fast build rule for target.
+vector/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/build
+.PHONY : vector/fast
+
+#=============================================================================
+# Target rules for targets named string
+
+# Build rule for target.
+string: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 string
+.PHONY : string
+
+# fast build rule for target.
+string/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/build
+.PHONY : string/fast
+
+#=============================================================================
+# Target rules for targets named 读取数量不定的输入
+
+# Build rule for target.
+读取数量不定的输入: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 读取数量不定的输入
+.PHONY : 读取数量不定的输入
+
+# fast build rule for target.
+读取数量不定的输入/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/读取数量不定的输入.dir/build.make CMakeFiles/读取数量不定的输入.dir/build
+.PHONY : 读取数量不定的输入/fast
+
+#=============================================================================
+# Target rules for targets named clangtest
+
+# Build rule for target.
+clangtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clangtest
+.PHONY : clangtest
+
+# fast build rule for target.
+clangtest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clangtest.dir/build.make CMakeFiles/clangtest.dir/build
+.PHONY : clangtest/fast
+
+#=============================================================================
+# Target rules for targets named hello
+
+# Build rule for target.
+hello: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello
+.PHONY : hello
+
+# fast build rule for target.
+hello/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/build
+.PHONY : hello/fast
+
+#=============================================================================
+# Target rules for targets named vector练习
+
+# Build rule for target.
+vector练习: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vector练习
+.PHONY : vector练习
+
+# fast build rule for target.
+vector练习/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector练习.dir/build.make CMakeFiles/vector练习.dir/build
+.PHONY : vector练习/fast
+
+#=============================================================================
 # Target rules for targets named 汉诺塔
 
 # Build rule for target.
@@ -130,6 +208,19 @@ depend:
 .PHONY : 汉诺塔/fast
 
 #=============================================================================
+# Target rules for targets named while
+
+# Build rule for target.
+while: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 while
+.PHONY : while
+
+# fast build rule for target.
+while/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/while.dir/build.make CMakeFiles/while.dir/build
+.PHONY : while/fast
+
+#=============================================================================
 # Target rules for targets named main2
 
 # Build rule for target.
@@ -141,6 +232,174 @@ main2: cmake_check_build_system
 main2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main2.dir/build.make CMakeFiles/main2.dir/build
 .PHONY : main2/fast
+
+C++_Primer/Chapter_0/while.o: C++_Primer/Chapter_0/while.cpp.o
+.PHONY : C++_Primer/Chapter_0/while.o
+
+# target to build an object file
+C++_Primer/Chapter_0/while.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/while.dir/build.make CMakeFiles/while.dir/C++_Primer/Chapter_0/while.cpp.o
+.PHONY : C++_Primer/Chapter_0/while.cpp.o
+
+C++_Primer/Chapter_0/while.i: C++_Primer/Chapter_0/while.cpp.i
+.PHONY : C++_Primer/Chapter_0/while.i
+
+# target to preprocess a source file
+C++_Primer/Chapter_0/while.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/while.dir/build.make CMakeFiles/while.dir/C++_Primer/Chapter_0/while.cpp.i
+.PHONY : C++_Primer/Chapter_0/while.cpp.i
+
+C++_Primer/Chapter_0/while.s: C++_Primer/Chapter_0/while.cpp.s
+.PHONY : C++_Primer/Chapter_0/while.s
+
+# target to generate assembly for a file
+C++_Primer/Chapter_0/while.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/while.dir/build.make CMakeFiles/while.dir/C++_Primer/Chapter_0/while.cpp.s
+.PHONY : C++_Primer/Chapter_0/while.cpp.s
+
+C++_Primer/Chapter_0/读取数量不定的输入.o: C++_Primer/Chapter_0/读取数量不定的输入.cpp.o
+.PHONY : C++_Primer/Chapter_0/读取数量不定的输入.o
+
+# target to build an object file
+C++_Primer/Chapter_0/读取数量不定的输入.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/读取数量不定的输入.dir/build.make CMakeFiles/读取数量不定的输入.dir/C++_Primer/Chapter_0/读取数量不定的输入.cpp.o
+.PHONY : C++_Primer/Chapter_0/读取数量不定的输入.cpp.o
+
+C++_Primer/Chapter_0/读取数量不定的输入.i: C++_Primer/Chapter_0/读取数量不定的输入.cpp.i
+.PHONY : C++_Primer/Chapter_0/读取数量不定的输入.i
+
+# target to preprocess a source file
+C++_Primer/Chapter_0/读取数量不定的输入.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/读取数量不定的输入.dir/build.make CMakeFiles/读取数量不定的输入.dir/C++_Primer/Chapter_0/读取数量不定的输入.cpp.i
+.PHONY : C++_Primer/Chapter_0/读取数量不定的输入.cpp.i
+
+C++_Primer/Chapter_0/读取数量不定的输入.s: C++_Primer/Chapter_0/读取数量不定的输入.cpp.s
+.PHONY : C++_Primer/Chapter_0/读取数量不定的输入.s
+
+# target to generate assembly for a file
+C++_Primer/Chapter_0/读取数量不定的输入.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/读取数量不定的输入.dir/build.make CMakeFiles/读取数量不定的输入.dir/C++_Primer/Chapter_0/读取数量不定的输入.cpp.s
+.PHONY : C++_Primer/Chapter_0/读取数量不定的输入.cpp.s
+
+C++_Primer/Chapter_0/输入输出流.o: C++_Primer/Chapter_0/输入输出流.cpp.o
+.PHONY : C++_Primer/Chapter_0/输入输出流.o
+
+# target to build an object file
+C++_Primer/Chapter_0/输入输出流.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clangtest.dir/build.make CMakeFiles/clangtest.dir/C++_Primer/Chapter_0/输入输出流.cpp.o
+.PHONY : C++_Primer/Chapter_0/输入输出流.cpp.o
+
+C++_Primer/Chapter_0/输入输出流.i: C++_Primer/Chapter_0/输入输出流.cpp.i
+.PHONY : C++_Primer/Chapter_0/输入输出流.i
+
+# target to preprocess a source file
+C++_Primer/Chapter_0/输入输出流.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clangtest.dir/build.make CMakeFiles/clangtest.dir/C++_Primer/Chapter_0/输入输出流.cpp.i
+.PHONY : C++_Primer/Chapter_0/输入输出流.cpp.i
+
+C++_Primer/Chapter_0/输入输出流.s: C++_Primer/Chapter_0/输入输出流.cpp.s
+.PHONY : C++_Primer/Chapter_0/输入输出流.s
+
+# target to generate assembly for a file
+C++_Primer/Chapter_0/输入输出流.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/clangtest.dir/build.make CMakeFiles/clangtest.dir/C++_Primer/Chapter_0/输入输出流.cpp.s
+.PHONY : C++_Primer/Chapter_0/输入输出流.cpp.s
+
+C++_Primer/Chapter_1/hello.o: C++_Primer/Chapter_1/hello.cpp.o
+.PHONY : C++_Primer/Chapter_1/hello.o
+
+# target to build an object file
+C++_Primer/Chapter_1/hello.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/C++_Primer/Chapter_1/hello.cpp.o
+.PHONY : C++_Primer/Chapter_1/hello.cpp.o
+
+C++_Primer/Chapter_1/hello.i: C++_Primer/Chapter_1/hello.cpp.i
+.PHONY : C++_Primer/Chapter_1/hello.i
+
+# target to preprocess a source file
+C++_Primer/Chapter_1/hello.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/C++_Primer/Chapter_1/hello.cpp.i
+.PHONY : C++_Primer/Chapter_1/hello.cpp.i
+
+C++_Primer/Chapter_1/hello.s: C++_Primer/Chapter_1/hello.cpp.s
+.PHONY : C++_Primer/Chapter_1/hello.s
+
+# target to generate assembly for a file
+C++_Primer/Chapter_1/hello.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello.dir/build.make CMakeFiles/hello.dir/C++_Primer/Chapter_1/hello.cpp.s
+.PHONY : C++_Primer/Chapter_1/hello.cpp.s
+
+C++_Primer/Chapter_1/string.o: C++_Primer/Chapter_1/string.cpp.o
+.PHONY : C++_Primer/Chapter_1/string.o
+
+# target to build an object file
+C++_Primer/Chapter_1/string.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/C++_Primer/Chapter_1/string.cpp.o
+.PHONY : C++_Primer/Chapter_1/string.cpp.o
+
+C++_Primer/Chapter_1/string.i: C++_Primer/Chapter_1/string.cpp.i
+.PHONY : C++_Primer/Chapter_1/string.i
+
+# target to preprocess a source file
+C++_Primer/Chapter_1/string.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/C++_Primer/Chapter_1/string.cpp.i
+.PHONY : C++_Primer/Chapter_1/string.cpp.i
+
+C++_Primer/Chapter_1/string.s: C++_Primer/Chapter_1/string.cpp.s
+.PHONY : C++_Primer/Chapter_1/string.s
+
+# target to generate assembly for a file
+C++_Primer/Chapter_1/string.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string.dir/build.make CMakeFiles/string.dir/C++_Primer/Chapter_1/string.cpp.s
+.PHONY : C++_Primer/Chapter_1/string.cpp.s
+
+C++_Primer/Chapter_1/vector.o: C++_Primer/Chapter_1/vector.cpp.o
+.PHONY : C++_Primer/Chapter_1/vector.o
+
+# target to build an object file
+C++_Primer/Chapter_1/vector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/C++_Primer/Chapter_1/vector.cpp.o
+.PHONY : C++_Primer/Chapter_1/vector.cpp.o
+
+C++_Primer/Chapter_1/vector.i: C++_Primer/Chapter_1/vector.cpp.i
+.PHONY : C++_Primer/Chapter_1/vector.i
+
+# target to preprocess a source file
+C++_Primer/Chapter_1/vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/C++_Primer/Chapter_1/vector.cpp.i
+.PHONY : C++_Primer/Chapter_1/vector.cpp.i
+
+C++_Primer/Chapter_1/vector.s: C++_Primer/Chapter_1/vector.cpp.s
+.PHONY : C++_Primer/Chapter_1/vector.s
+
+# target to generate assembly for a file
+C++_Primer/Chapter_1/vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector.dir/build.make CMakeFiles/vector.dir/C++_Primer/Chapter_1/vector.cpp.s
+.PHONY : C++_Primer/Chapter_1/vector.cpp.s
+
+数据结构/顺序表/vector练习.o: 数据结构/顺序表/vector练习.cpp.o
+.PHONY : 数据结构/顺序表/vector练习.o
+
+# target to build an object file
+数据结构/顺序表/vector练习.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector练习.dir/build.make CMakeFiles/vector练习.dir/数据结构/顺序表/vector练习.cpp.o
+.PHONY : 数据结构/顺序表/vector练习.cpp.o
+
+数据结构/顺序表/vector练习.i: 数据结构/顺序表/vector练习.cpp.i
+.PHONY : 数据结构/顺序表/vector练习.i
+
+# target to preprocess a source file
+数据结构/顺序表/vector练习.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector练习.dir/build.make CMakeFiles/vector练习.dir/数据结构/顺序表/vector练习.cpp.i
+.PHONY : 数据结构/顺序表/vector练习.cpp.i
+
+数据结构/顺序表/vector练习.s: 数据结构/顺序表/vector练习.cpp.s
+.PHONY : 数据结构/顺序表/vector练习.s
+
+# target to generate assembly for a file
+数据结构/顺序表/vector练习.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/vector练习.dir/build.make CMakeFiles/vector练习.dir/数据结构/顺序表/vector练习.cpp.s
+.PHONY : 数据结构/顺序表/vector练习.cpp.s
 
 杂/main2.o: 杂/main2.cpp.o
 .PHONY : 杂/main2.o
@@ -198,8 +457,36 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... clangtest"
+	@echo "... hello"
 	@echo "... main2"
+	@echo "... string"
+	@echo "... vector"
+	@echo "... vector练习"
+	@echo "... while"
 	@echo "... 汉诺塔"
+	@echo "... 读取数量不定的输入"
+	@echo "... C++_Primer/Chapter_0/while.o"
+	@echo "... C++_Primer/Chapter_0/while.i"
+	@echo "... C++_Primer/Chapter_0/while.s"
+	@echo "... C++_Primer/Chapter_0/读取数量不定的输入.o"
+	@echo "... C++_Primer/Chapter_0/读取数量不定的输入.i"
+	@echo "... C++_Primer/Chapter_0/读取数量不定的输入.s"
+	@echo "... C++_Primer/Chapter_0/输入输出流.o"
+	@echo "... C++_Primer/Chapter_0/输入输出流.i"
+	@echo "... C++_Primer/Chapter_0/输入输出流.s"
+	@echo "... C++_Primer/Chapter_1/hello.o"
+	@echo "... C++_Primer/Chapter_1/hello.i"
+	@echo "... C++_Primer/Chapter_1/hello.s"
+	@echo "... C++_Primer/Chapter_1/string.o"
+	@echo "... C++_Primer/Chapter_1/string.i"
+	@echo "... C++_Primer/Chapter_1/string.s"
+	@echo "... C++_Primer/Chapter_1/vector.o"
+	@echo "... C++_Primer/Chapter_1/vector.i"
+	@echo "... C++_Primer/Chapter_1/vector.s"
+	@echo "... 数据结构/顺序表/vector练习.o"
+	@echo "... 数据结构/顺序表/vector练习.i"
+	@echo "... 数据结构/顺序表/vector练习.s"
 	@echo "... 杂/main2.o"
 	@echo "... 杂/main2.i"
 	@echo "... 杂/main2.s"
