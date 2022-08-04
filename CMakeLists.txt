@@ -1,14 +1,23 @@
-
-
-
 set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
-
-add_executable(杂/main2.cpp)
 add_executable(汉诺塔 杂/汉诺塔.cpp)
 add_executable(vector练习 数据结构/顺序表/vector练习.cpp)
 add_executable(clangtest "C++ Primer/Chapter 0/输入输出流.cpp")
 add_executable(while "C++ Primer/Chapter 0/while.cpp")
 add_executable(读取数量不定的输入 "C++ Primer/Chapter 0/读取数量不定的输入.cpp")
-add_executable(string "C++ Primer/Chapter 1/string.cpp")
+add_executable(string 算法图解练习/string.cpp)
 add_executable(vector "C++ Primer/Chapter 1/vector.cpp")
 add_executable(hello "C++ Primer/Chapter 1/hello.cpp")
+add_executable(main2 算法图解练习/recursive.cpp)
+add_executable(playground 杂/playground.cpp)
+add_executable(quickSort 算法图解练习/quickSort.cpp)
+add_executable(map "C++ Primer/Chapter 11/map.cpp")
+
+add_executable(1.1 "C++ Primer/Chapter 1/1.1.cpp")
+add_executable(1.2 "C++ Primer/Chapter 1/1.2.cpp")
+
+add_executable(1.4 "C++ Primer/Chapter 1/1.4.cpp")
+add_executable(3.6 "C++ Primer/Chapter 3/3.6.cpp")
+add_executable(9.2 "C++ Primer/Chapter 9/9.2.cpp")
+add_executable(9.3 "C++ Primer/Chapter 9/9.3.cpp")
+add_executable(9.4 "C++ Primer/Chapter 9/9.4.cpp")
+add_executable(9.5 "C++ Primer/Chapter 9/9.5.cpp")
