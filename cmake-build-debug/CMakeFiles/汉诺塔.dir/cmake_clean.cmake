@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/汉诺塔.dir/杂/汉诺塔.cpp.o"
+  "CMakeFiles/汉诺塔.dir/杂/汉诺塔.cpp.o.d"
   "汉诺塔"
   "汉诺塔.pdb"
 )
